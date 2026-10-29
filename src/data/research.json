@@ -15,8 +15,8 @@
         "QOS combines error mitigation, multiprogramming, and scheduling for quantum jobs.",
         "Qonductor schedules hybrid applications across quantum and classical cloud resources."
       ],
-      "image": "illustrations/qtpu.svg",
-      "imageAlt": "qTPU conceptual illustration",
+      "image": "illustrations/area-hybrid.svg",
+      "imageAlt": "Classical and quantum processors connected by shared execution paths",
       "paperIds": [
         "qtpu",
         "qonductor",
@@ -37,8 +37,8 @@
         "ECCentric compares code families across hardware connections, noise models, and compilation choices.",
         "Zero-G decodes the sparse error signals that remain after a pre-decoder resolves simple local errors."
       ],
-      "image": "illustrations/eccentric.svg",
-      "imageAlt": "ECCentric conceptual illustration",
+      "image": "illustrations/area-error-correction.svg",
+      "imageAlt": "Layered syndrome lattices with highlighted decoder matching paths",
       "paperIds": [
         "zero-g",
         "eccentric"
@@ -58,8 +58,8 @@
         "Harvest coordinates circuit placement, routing, and magic-state generation under a shared resource model.",
         "RushHour reconfigures lattice layouts during execution through its compiler, instruction set, and lattice controller."
       ],
-      "image": "illustrations/chipmunq.svg",
-      "imageAlt": "Chipmunq conceptual illustration",
+      "image": "illustrations/area-compilation.svg",
+      "imageAlt": "Logical patches and routing lanes connected to a resource-state factory",
       "paperIds": [
         "rushhour",
         "harvest",
@@ -79,8 +79,8 @@
         "Weaver provides a programming language, compiler optimizations, and an equivalence checker for field-programmable quantum arrays.",
         "MultiQ combines virtual zone layouts with a controller that schedules independent circuits on shared neutral atom hardware."
       ],
-      "image": "illustrations/weaver.svg",
-      "imageAlt": "Weaver conceptual illustration",
+      "image": "illustrations/area-neutral-atoms.svg",
+      "imageAlt": "An atom array with transport trajectories and an interacting atom pair",
       "paperIds": [
         "multiq",
         "weaver"
@@ -100,8 +100,8 @@
         "Oraqle evaluates how readout duration and classifier complexity affect quantum error correction.",
         "Mamba Readout uses classification and refinement stages to identify qubit states from readout sequences."
       ],
-      "image": "illustrations/mcmit.svg",
-      "imageAlt": "MCMit conceptual illustration",
+      "image": "illustrations/area-readout.svg",
+      "imageAlt": "Qubit readout hardware connected to a classical feedback controller",
       "paperIds": [
         "mcmit",
         "mamba-readout",

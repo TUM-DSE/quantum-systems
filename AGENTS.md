@@ -16,6 +16,10 @@ Use blue opacity for rules and secondary text.
 
 Use generous space, thin rules, and clear type hierarchy.
 
+Keep index page titles at 56 pixels or less on laptop screens.
+
+Keep index page title padding compact so content appears in the first viewport.
+
 Keep backgrounds flat.
 
 Do not add gradients, shadows, decorative badges, animated backgrounds, or rounded card grids.
@@ -33,6 +37,12 @@ Show portraits in blue tones by default.
 Show their original colors on hover and keyboard focus.
 
 Keep scientific diagrams static and editable.
+
+Match project illustrations to the title image with layered isometric forms and precise blue outlines.
+
+Use a few solid blue focal points in each illustration.
+
+Use `scripts/area-art.py` for research area illustrations.
 
 ## Titles
 

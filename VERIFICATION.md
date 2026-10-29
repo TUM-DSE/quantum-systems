@@ -28,6 +28,12 @@ The paper page also fits a viewport width of 320 CSS pixels.
 
 The project page fits a viewport width of 1280 CSS pixels.
 
+At that width, the Projects, Team, and Publications titles use 56 pixels.
+
+Their title sections measure 140 pixels high, including padding.
+
+The isometric illustrations use the same palette and projection as the title image.
+
 The homepage fits the browser's actual viewport width of 359 CSS pixels.
 
 The project index shows five research area cards.

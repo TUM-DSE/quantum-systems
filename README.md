@@ -90,7 +90,9 @@ The project illustrations show conceptual structures.
 
 They contain no experimental measurements.
 
-`scripts/project-art.py` generates the editable SVG illustrations with Python.
+`scripts/project-art.py` generates the title image and paper illustrations with Python.
+
+`scripts/area-art.py` generates the isometric research area illustrations.
 
 The publication previews show the first page of each paper.
 
