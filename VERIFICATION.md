@@ -56,8 +56,6 @@ Qonductor displays its Best Student Paper Award finalist status.
 
 ## Publication
 
-The repository has no Git remote.
-
 The GitHub Pages workflow requires a manual run.
 
 No website deployment occurred.

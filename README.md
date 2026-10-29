@@ -115,11 +115,15 @@ BASE_PATH=/quantum-systems npm run verify
 
 Run `npm run build` again to restore the root-path local build.
 
+## Repository
+
+The source repository is [nathanieltornow/quantum-systems](https://github.com/nathanieltornow/quantum-systems).
+
+GitHub Actions checks changes on the main branch and pull requests.
+
 ## GitHub Pages
 
 The repository includes a manual deployment workflow.
-
-Create a GitHub repository and push this repository when publication is ready.
 
 Select GitHub Actions in the repository Pages settings.
 
