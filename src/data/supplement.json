@@ -1,0 +1,145 @@
+{
+  "retrieved_on": "2026-10-29",
+  "projects": [
+    {
+      "slug": "rushhour",
+      "name": "RushHour",
+      "title": "RushHour: A Dynamically Reconfigurable Lattice-Surgery Architecture",
+      "title_original": "RushHour: A Dynamically Reconfigurable Lattice-Surgery Architecture",
+      "authors": [
+        "Nathaniel Tornow",
+        "Aleksandra Swierkowska",
+        "Peter Wegmann",
+        "Pramod Bhatotia"
+      ],
+      "authors_original": [
+        "Nathaniel Tornow",
+        "Aleksandra \u015awierkowska",
+        "Peter Wegmann",
+        "Pramod Bhatotia"
+      ],
+      "category": "Compilation",
+      "status": "Preprint",
+      "display_venue": "arXiv 2026",
+      "year": 2026,
+      "submitted_on": "2026-08-19",
+      "revised_on": "2026-08-24",
+      "version": "v2",
+      "summary": "RushHour reconfigures lattice-surgery layouts during execution to fit fault-tolerant programs onto smaller quantum chips.",
+      "overview": "RushHour coordinates logical qubit movement, routing space, and resource-state allocation. Its instruction set, lattice controller, and compiler support dynamic layouts.",
+      "method": [
+        "The instruction set defines dynamic lattice operations and resource-state allocation.",
+        "The Lattice Management Unit manages layout changes and access to logical qubits.",
+        "The compiler maps logical circuits onto physical chips and overlaps instruction execution."
+      ],
+      "result": "On space-constrained chips, the evaluation reports median speedups from 2.3 to 7.2 times over the best feasible alternative.",
+      "summary_source": "https://arxiv.org/abs/2608.18985",
+      "source_url": "https://arxiv.org/abs/2608.18985",
+      "source_entries": [
+        {
+          "venue": "arXiv 2026",
+          "title": "RushHour: A Dynamically Reconfigurable Lattice-Surgery Architecture"
+        }
+      ],
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/pdf/2608.18985",
+          "source": "https://arxiv.org/abs/2608.18985"
+        },
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/abs/2608.18985",
+          "source": "https://arxiv.org/abs/2608.18985"
+        }
+      ],
+      "code_url": null,
+      "code_status": "The arXiv record, full paper HTML, and author publication page contain no verified RushHour repository link.",
+      "activity_status": "The user requested this project for the research website.",
+      "notes": [
+        "The arXiv record provides the authoritative author order.",
+        "The paper is a preprint with no conference venue recorded."
+      ],
+      "citation": {
+        "key": "tornow2026rushhour",
+        "title": "RushHour: A Dynamically Reconfigurable Lattice-Surgery Architecture",
+        "authors": [
+          "Nathaniel Tornow",
+          "Aleksandra \u015awierkowska",
+          "Peter Wegmann",
+          "Pramod Bhatotia"
+        ],
+        "year": 2026,
+        "venue": "arXiv",
+        "url": "https://arxiv.org/abs/2608.18985",
+        "eprint": "2608.18985",
+        "archivePrefix": "arXiv",
+        "primaryClass": "quant-ph",
+        "doi": "10.48550/arXiv.2608.18985"
+      }
+    }
+  ],
+  "team_additions": [
+    {
+      "name": "Anubhav Panda",
+      "name_original": "Anubhav Panda",
+      "slug": "anubhav-panda",
+      "role": "PhD student",
+      "role_source": "User confirmation and official team page.",
+      "source_role": "PhD student",
+      "role_override": false,
+      "profile_url": "https://anubhavpanda.in/",
+      "portrait_url": "https://dse.in.tum.de/wp-content/uploads/2025/08/Panda-e1785333215201-150x150.jpg",
+      "email": "anubhav.panda@tum.de",
+      "source_url": "https://dse.in.tum.de/team/",
+      "projects": [],
+      "membership_basis": "The user requested his inclusion in the quantum team. The official team page confirms his PhD role."
+    },
+    {
+      "name": "Ilgaz Er",
+      "name_original": "Ilgaz Er",
+      "slug": "ilgaz-er",
+      "role": "PhD student",
+      "role_source": "User confirmation.",
+      "source_role": null,
+      "role_override": true,
+      "profile_url": null,
+      "portrait_url": null,
+      "email": null,
+      "source_url": null,
+      "projects": [],
+      "membership_basis": "The user requested Ilgaz as a PhD student in the quantum team.",
+      "identity_status": "The user confirmed the full name. No profile or portrait is available.",
+      "evidence_note": "Ilgaz does not appear in the official team page retrieved on 2026-10-29."
+    }
+  ],
+  "notes": [
+    "Anubhav Panda appears in the official team page and his linked personal profile as a PhD student.",
+    "Ilgaz has no matching entry in the retrieved official team HTML. No matching official profile or portrait was found.",
+    "The user supplied both team roles. Ilgaz can be included by first name pending identity details.",
+    "RushHour does not appear in the previously extracted lab publication list. The user supplied its arXiv record.",
+    "RushHour has a verified paper link. Its code URL remains null because no repository link was verified."
+  ],
+  "sources": [
+    {
+      "title": "Lab team",
+      "url": "https://dse.in.tum.de/team/"
+    },
+    {
+      "title": "Anubhav Panda",
+      "url": "https://anubhavpanda.in/"
+    },
+    {
+      "title": "RushHour arXiv record",
+      "url": "https://arxiv.org/abs/2608.18985"
+    },
+    {
+      "title": "RushHour full paper",
+      "url": "https://arxiv.org/html/2608.18985v2"
+    },
+    {
+      "title": "Nathaniel Tornow publications",
+      "url": "https://nathanieltornow.github.io/"
+    }
+  ]
+}

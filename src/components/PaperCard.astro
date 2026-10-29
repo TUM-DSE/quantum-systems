@@ -1,0 +1,10 @@
+---
+import Arrow from './Arrow.astro';
+import { paperPath, path, type Paper } from '../lib/content';
+interface Props { paper: Paper }
+const { paper } = Astro.props;
+---
+<a class="paper-card" href={paperPath(paper.slug)}>
+  <div class="paper-card-cover"><img src={path(paper.image)} alt={`${paper.title}, first page`} width="612" height="792" loading="lazy"/></div>
+  <div class="paper-card-body"><div class="publication-label"><span class="venue"><strong>{paper.venue}</strong><span>{paper.year}</span></span></div><h3>{paper.title}</h3><p>{paper.authors.join(', ')}</p>{paper.award && <div class="paper-award">{paper.award}</div>}<span class="paper-card-link">Paper <Arrow/></span></div>
+</a>

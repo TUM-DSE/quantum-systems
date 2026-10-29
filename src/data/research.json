@@ -1,0 +1,1024 @@
+{
+  "reviewed": "2026-10-29",
+  "projects": [
+    {
+      "slug": "hybrid-computing",
+      "name": "Hybrid Computing and Orchestration",
+      "description": "Programming models, runtimes, and resource management for quantum and classical processors.",
+      "overview": [
+        "Quantum applications combine quantum circuits with classical computation. We develop programming models, compilers, and runtimes for these applications.",
+        "Our work connects circuit execution with resource management. It covers circuit partitioning, shared quantum processors, and scheduling across cloud resources."
+      ],
+      "method": [
+        "qTPU represents quantum and classical computation through hybrid tensor networks.",
+        "QVM partitions circuits through gate virtualization and reconstructs their results with classical computation.",
+        "QOS combines error mitigation, multiprogramming, and scheduling for quantum jobs.",
+        "Qonductor schedules hybrid applications across quantum and classical cloud resources."
+      ],
+      "image": "illustrations/qtpu.svg",
+      "imageAlt": "qTPU conceptual illustration",
+      "paperIds": [
+        "qtpu",
+        "qonductor",
+        "qos",
+        "qvm"
+      ],
+      "resources": []
+    },
+    {
+      "slug": "error-correction",
+      "name": "Error Correction and Decoding",
+      "description": "Error correction benchmarks and decoders for practical quantum systems.",
+      "overview": [
+        "Quantum error correction protects logical information with redundant physical qubits. Decoders interpret measurement signals to identify errors.",
+        "We study the interaction between error correction codes, hardware, and decoding. Our work covers system-level evaluation and low-latency decoding."
+      ],
+      "method": [
+        "ECCentric compares code families across hardware connections, noise models, and compilation choices.",
+        "Zero-G decodes the sparse error signals that remain after a pre-decoder resolves simple local errors."
+      ],
+      "image": "illustrations/eccentric.svg",
+      "imageAlt": "ECCentric conceptual illustration",
+      "paperIds": [
+        "zero-g",
+        "eccentric"
+      ],
+      "resources": []
+    },
+    {
+      "slug": "fault-tolerant-compilation",
+      "name": "Fault-Tolerant Compilation",
+      "description": "Compilers, layouts, and resource management for fault-tolerant quantum computers.",
+      "overview": [
+        "Fault-tolerant quantum programs require compilers that account for logical qubits, communication, and auxiliary resource states.",
+        "We study how compilation coordinates these resources under hardware constraints. Our work covers modular chips, lattice-surgery layouts, and dynamic execution."
+      ],
+      "method": [
+        "Chipmunq partitions, maps, and routes fault-tolerant circuits across connected quantum chiplets.",
+        "Harvest coordinates circuit placement, routing, and magic-state generation under a shared resource model.",
+        "RushHour reconfigures lattice layouts during execution through its compiler, instruction set, and lattice controller."
+      ],
+      "image": "illustrations/chipmunq.svg",
+      "imageAlt": "Chipmunq conceptual illustration",
+      "paperIds": [
+        "rushhour",
+        "harvest",
+        "chipmunq"
+      ],
+      "resources": []
+    },
+    {
+      "slug": "neutral-atom-systems",
+      "name": "Neutral-Atom Systems",
+      "description": "Compilation and shared execution for reconfigurable neutral atom processors.",
+      "overview": [
+        "Neutral atom processors use programmable atom movement to change hardware connections. Compilers must coordinate these movements with quantum operations.",
+        "We develop compiler and runtime support for reconfigurable arrays. Our work includes architecture-specific optimization, equivalence checking, and shared circuit execution."
+      ],
+      "method": [
+        "Weaver provides a programming language, compiler optimizations, and an equivalence checker for field-programmable quantum arrays.",
+        "MultiQ combines virtual zone layouts with a controller that schedules independent circuits on shared neutral atom hardware."
+      ],
+      "image": "illustrations/weaver.svg",
+      "imageAlt": "Weaver conceptual illustration",
+      "paperIds": [
+        "multiq",
+        "weaver"
+      ],
+      "resources": []
+    },
+    {
+      "slug": "readout-control",
+      "name": "Readout and Control",
+      "description": "Qubit-state classification, measurement, and feedback for quantum hardware.",
+      "overview": [
+        "Quantum measurements connect qubit states to classical control. Their accuracy and latency affect circuit execution and quantum error correction.",
+        "We study readout signals, state classifiers, and feedback paths. Our work combines hardware control with compiler transformations and experimental readout data."
+      ],
+      "method": [
+        "MCMit combines a branch instruction, neural classifiers, and compiler transformations for measurements during circuit execution.",
+        "Oraqle evaluates how readout duration and classifier complexity affect quantum error correction.",
+        "Mamba Readout uses classification and refinement stages to identify qubit states from readout sequences."
+      ],
+      "image": "illustrations/mcmit.svg",
+      "imageAlt": "MCMit conceptual illustration",
+      "paperIds": [
+        "mcmit",
+        "mamba-readout",
+        "oraqle"
+      ],
+      "resources": []
+    }
+  ],
+  "people": [
+    {
+      "name": "Pramod Bhatotia",
+      "role": "Professor and Chair",
+      "url": "https://dse.in.tum.de/bhatotia/",
+      "image": "people/pramod-bhatotia.png",
+      "group": "current",
+      "source": "https://dse.in.tum.de/team/",
+      "portraitSource": "https://dse.in.tum.de/wp-content/uploads/2025/11/Bhatotia-PIC-150x150.png"
+    },
+    {
+      "name": "Dennis Sprokholt",
+      "role": "Humboldt PostDoc Fellow",
+      "url": "https://dennis.life/",
+      "image": "people/dennis-sprokholt.webp",
+      "group": "current",
+      "source": "https://dse.in.tum.de/team/",
+      "portraitSource": "https://dse.in.tum.de/wp-content/uploads/2025/05/dennis-portrait-150x150.webp"
+    },
+    {
+      "name": "Theofilos Augoustis",
+      "role": "PhD student",
+      "url": "https://taugoust.github.io/",
+      "image": "people/theofilos-augoustis.jpg",
+      "group": "current",
+      "source": "https://dse.in.tum.de/team/",
+      "portraitSource": "https://dse.in.tum.de/wp-content/uploads/2023/01/photo_2023-01-24_12-28-23-150x150.jpg"
+    },
+    {
+      "name": "Felix Gust",
+      "role": "PhD student",
+      "url": "https://gustifix.github.io/",
+      "image": "people/felix-gust.jpg",
+      "group": "collaborator",
+      "source": "https://dse.in.tum.de/team/",
+      "portraitSource": "https://dse.in.tum.de/wp-content/uploads/2023/01/IMG_0463-150x150.jpg",
+      "membershipBasis": "The user removed Felix Gust from the displayed team on 2026-10-29. His paper authorship remains in the publication records."
+    },
+    {
+      "name": "Jannik Pflieger",
+      "role": "PhD student",
+      "url": "https://jannikpflieger.github.io",
+      "image": "people/jannik-pflieger.jpeg",
+      "group": "current",
+      "source": "https://dse.in.tum.de/team/",
+      "portraitSource": "https://dse.in.tum.de/wp-content/uploads/2025/01/Jannik.jpeg"
+    },
+    {
+      "name": "Francisco Romao",
+      "role": "PhD student",
+      "url": "https://franciscoromao.github.io/",
+      "image": "people/francisco-romao.jpg",
+      "group": "current",
+      "source": "https://dse.in.tum.de/team/",
+      "portraitSource": "https://dse.in.tum.de/wp-content/uploads/2022/03/CartaoCidadao-150x150.jpg"
+    },
+    {
+      "name": "Nathaniel Tornow",
+      "role": "PhD student",
+      "url": "https://nathanieltornow.github.io/",
+      "image": "people/nathaniel-tornow.png",
+      "group": "current",
+      "source": "https://dse.in.tum.de/team/",
+      "portraitSource": "https://dse.in.tum.de/wp-content/uploads/2023/01/image.png"
+    },
+    {
+      "name": "Aleksandra Swierkowska",
+      "role": "PhD student",
+      "url": "https://aswierkowska.github.io/",
+      "image": "people/aleksandra-swierkowska.jpeg",
+      "group": "current",
+      "source": "https://dse.in.tum.de/team/",
+      "portraitSource": "https://dse.in.tum.de/wp-content/uploads/2024/05/Aleksandra-Swierkowska.jpeg"
+    },
+    {
+      "name": "Peter Wegmann",
+      "role": "PhD student",
+      "url": "https://wegii.github.io/",
+      "image": "people/peter-wegmann.jpeg",
+      "group": "current",
+      "source": "https://dse.in.tum.de/team/",
+      "portraitSource": "https://dse.in.tum.de/wp-content/uploads/2026/09/wegmann_profile.jpeg"
+    },
+    {
+      "name": "Emmanouil Giortamis",
+      "role": "Graduating PhD alumnus",
+      "url": "https://manosgior.github.io/",
+      "image": "people/emmanouil-giortamis.jpg",
+      "group": "alumni",
+      "source": "https://dse.in.tum.de/team/",
+      "portraitSource": "https://dse.in.tum.de/wp-content/uploads/2021/11/scn_0011_copy-150x150.jpg"
+    },
+    {
+      "name": "Anubhav Panda",
+      "role": "PhD student",
+      "url": "https://anubhavpanda.in/",
+      "image": "people/anubhav-panda.jpg",
+      "group": "current",
+      "source": "https://dse.in.tum.de/team/",
+      "portraitSource": "https://dse.in.tum.de/wp-content/uploads/2025/08/Panda-e1785333215201-150x150.jpg",
+      "membershipBasis": "The user requested his inclusion in the quantum team. The official team page confirms his PhD role."
+    },
+    {
+      "name": "Ilgaz Er",
+      "role": "PhD student",
+      "url": "",
+      "image": "",
+      "group": "current",
+      "source": "User confirmation on 2026-10-29",
+      "portraitSource": "",
+      "membershipBasis": "The user requested Ilgaz as a PhD student in the quantum team."
+    }
+  ],
+  "papers": [
+    {
+      "slug": "multiq",
+      "projectSlug": "neutral-atom-systems",
+      "title": "MultiQ: Multi-Programming Neutral Atom Quantum Architectures",
+      "authors": [
+        "Francisco Romao",
+        "Daniel Vonk",
+        "Emmanouil Giortamis",
+        "Dennis Sprokholt",
+        "Pramod Bhatotia"
+      ],
+      "year": 2027,
+      "venue": "CGO",
+      "status": "Upcoming venue",
+      "abstract": "Neutral atom Quantum Processing Units (QPUs) are emerging as a popular quantum computing technology due to their large qubit counts and flexible connectivity. However, performance challenges arise as large circuits experience significant fidelity drops, while small circuits underutilize hardware and face initialization latency issues. To tackle these problems, we propose multi-programming on neutral atom QPUs, allowing the co-execution of multiple circuits by logically partitioning the qubit array. This approach increases resource utilization and mitigates initialization latency while maintaining result fidelity. Currently, state-of-the-art compilers for neutral atom architectures do not support multi-programming.\n\nTo fill this gap, we introduce MultiQ, the first system designed for this purpose. MultiQ addresses three main challenges: (i) it compiles circuits into a virtual zone layout to optimize spatio-temporal hardware utilization; (ii) it parallelizes the execution of co-located circuits, allowing single hardware instructions to operate on different circuits; and (iii) it includes an algorithm to verify the functional independence of the bundled circuits. MultiQ functions as a cross-layer system comprising a compiler, controller, and checker. Our compiler generates virtual zone layouts to enhance performance, while the controller efficiently maps these layouts onto the hardware and resolves any conflicts. The checker ensures the correct bundling of circuits.\n\nExperimental results show a throughput increase from 3.8x to 12.3x when multi-programming 4 to 14 circuits, with fidelity largely maintained, ranging from a 1.3% improvement for four circuits to only a 3.5% loss for fourteen circuits. Overall, MultiQ facilitates concurrent execution of multiple quantum circuits, boosting throughput and hardware utilization.",
+      "abstractSource": "https://arxiv.org/abs/2601.08504",
+      "abstractLicense": {
+        "name": "CC0 1.0",
+        "scope": "arXiv abstract metadata",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": "https://info.arxiv.org/help/license/index.html#metadata-license"
+      },
+      "citation": "@misc{romao2026multiqmultiprogrammingneutralatom,\n      title={MultiQ: Multi-Programming Neutral Atom Quantum Architectures}, \n      author={Francisco Rom{\\~a}o and Daniel Vonk and Emmanuil Giortamis and Dennis Sprokholt and Pramod Bhatotia},\n      year={2026},\n      eprint={2601.08504},\n      archivePrefix={arXiv},\n      primaryClass={quant-ph},\n      url={https://arxiv.org/abs/2601.08504}, \n}",
+      "bibtexSource": "https://arxiv.org/bibtex/2601.08504",
+      "image": "papers/multiq.jpg",
+      "resources": [
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/pdf/2601.08504"
+        }
+      ],
+      "note": "The lab lists CGO 2027. The linked paper is a 2026 preprint.",
+      "name": "MultiQ",
+      "summary": "MultiQ runs independent quantum circuits together on neutral atom processors.",
+      "overview": [
+        "MultiQ runs independent quantum circuits together on neutral atom processors.",
+        "MultiQ compiles circuits into virtual zone layouts. Its controller bundles layouts and schedules shared hardware operations. A checker verifies circuit independence."
+      ],
+      "method": [
+        "Virtual zone layouts separate compilation from physical placement.",
+        "The controller schedules independent circuits across the same processor.",
+        "The checker verifies that shared execution preserves each circuit."
+      ],
+      "illustration": "illustrations/multiq.svg",
+      "illustrationAlt": "MultiQ conceptual illustration",
+      "sortDate": "2027",
+      "sortDateSource": "https://dse.in.tum.de/publications/",
+      "sortDateBasis": "Venue year from the lab publication list."
+    },
+    {
+      "slug": "mcmit",
+      "projectSlug": "readout-control",
+      "title": "MCMit: Hardware-Software Co-Design for Mid-circuit Measurement Error Mitigation",
+      "authors": [
+        "Emmanouil Giortamis",
+        "Felix Gust",
+        "Aleksandra Swierkowska",
+        "Sandra Stankovic",
+        "Innocenzo Fulginiti",
+        "Yanbin Chen",
+        "Xiaorang Guo",
+        "Benjamin Lienhard",
+        "Martin Schulz",
+        "Pramod Bhatotia"
+      ],
+      "year": 2026,
+      "venue": "MICRO",
+      "status": "Publication",
+      "abstract": "Distributed Quantum Computing (DQC) and Quantum Error Correction (QEC) rely on dynamic circuits that include Mid-Circuit Measurements (MCMs) and classical feedback. These operations present a major bottleneck: MCMs suffer from high error rates that lead to real-time branching errors, while MCM and classical feedback latencies amplify decoherence errors. Current hardware controllers, qubit-state discriminators, and software error mitigation techniques fail to address these challenges holistically.\n\nWe propose MCMit, a hardware-software co-design to mitigate branching and latency-induced errors. MCMit introduces a scalable, constant-latency multi-control branch instruction for faster classical feedback and two qubit-state discriminators, a transformer, and a CNN, with high accuracy even under short measurement durations. On the software side, static MCM elimination and stochastic branching complement the hardware by mitigating residual branching errors that persist despite hardware improvements.\n\nWe implement MCMit on Qubic and evaluate it using experimentally extracted QPU readout traces. Our branch instruction reduces feedback latency by up to 70%, improving circuit depths by up to 7x over Qubic. Our CNN discriminator achieves up to 62% higher accuracy for short measurement durations than the baselines, driving 1.2-9.4x lower logical error rates in QEC. Last, our software mitigation improves fidelity by 18--30% over baseline methods in DQC workloads.",
+      "abstractSource": "https://arxiv.org/abs/2604.25863",
+      "abstractLicense": {
+        "name": "CC0 1.0",
+        "scope": "arXiv abstract metadata",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": "https://info.arxiv.org/help/license/index.html#metadata-license"
+      },
+      "citation": "@inproceedings{giortamis2026mcmit,\n  title     = {MCMit: Hardware-Software Co-Design for Mid-Circuit Measurement Error Mitigation},\n  author    = {Giortamis, Emmanouil and Gust, Felix and {\\'S}wierkowska, Aleksandra and Stankovic, Sandra and Fulginiti, Innocenzo and Chen, Yanbin and Guo, Xiaorang and Lienhard, Benjamin and Schulz, Martin and Bhatotia, Pramod},\n  booktitle = {Proceedings of the 59th IEEE/ACM International Symposium on Microarchitecture (MICRO)},\n  year      = {2026},\n  eprint    = {2604.25863},\n  archivePrefix = {arXiv}\n}",
+      "bibtexSource": "https://manosgior.github.io/publications",
+      "image": "papers/mcmit.jpg",
+      "resources": [
+        {
+          "label": "Paper",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2026/10/mcmit_micro26.pdf"
+        },
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/abs/2604.25863"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/manosgior/MCMit"
+        },
+        {
+          "label": "Slides",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2026/10/mcmit_micro26_slides.pdf"
+        }
+      ],
+      "note": "",
+      "name": "MCMit",
+      "summary": "MCMit combines hardware control and software mitigation for measurements during quantum circuit execution.",
+      "overview": [
+        "MCMit combines hardware control and software mitigation for measurements during quantum circuit execution.",
+        "MCMit reduces errors from measurement and classical feedback. It combines a branch instruction, qubit-state classifiers, and compiler transformations."
+      ],
+      "method": [
+        "A multi-control branch instruction reduces classical feedback latency.",
+        "Neural classifiers identify qubit states from short readout traces.",
+        "Compiler transformations mitigate remaining branching errors."
+      ],
+      "illustration": "illustrations/mcmit.svg",
+      "illustrationAlt": "MCMit conceptual illustration",
+      "sortDate": "2026-10",
+      "sortDateSource": "https://www.microarch.org/micro59/submit/micro59-sample-paper.pdf",
+      "sortDateBasis": "Conference month from the official schedule."
+    },
+    {
+      "slug": "mamba-readout",
+      "projectSlug": "readout-control",
+      "title": "Multi-Stage Mamba-Based Architecture for Fast and Scalable Superconducting Qubit Readout",
+      "authors": [
+        "Luca Otting",
+        "Xiaorang Guo",
+        "Emmanouil Giortamis",
+        "Benjamin Lienhard",
+        "Pramod Bhatotia",
+        "Martin Schulz"
+      ],
+      "year": 2026,
+      "venue": "QCE",
+      "status": "Publication",
+      "abstract": "Reliable qubit readout is a critical bottleneck toward fault-tolerant quantum computing (FTQC). In superconducting quantum processors, readout operations are both error-prone and high-latency. These challenges become more severe in frequency-multiplexed architectures, where signal crosstalk among neighboring qubits significantly degrades readout fidelity. Existing machine learning (ML)-based approaches rely on feed-forward neural networks (FNNs) that suffer from large parameter sizes and lack an end-to-end network that jointly addresses relaxation errors and discriminates qubit states.\n\nIn this work, we present a multi-stage qubit state discriminator based on the Mamba model, which enables efficient sequence modeling with linear complexity. The first stage performs initial state discrimination, followed by a refinement stage that identifies and mitigates relaxation-induced errors. Our lightweight model achieves a geometric mean readout fidelity of 0.906, outperforming the best-reported state-of-the-art method while reducing parameter size by 49.6%; our optimal model further reaches 0.911. Both models remain robust across varying input trace lengths, maintaining a high fidelity of 0.893 at readout durations as short as 500 ns, achieving up to a 26% reduction in logical error rate over prior work in quantum error correction (QEC).",
+      "abstractSource": "https://arxiv.org/abs/2607.11668",
+      "abstractLicense": {
+        "name": "CC0 1.0",
+        "scope": "arXiv abstract metadata",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": "https://info.arxiv.org/help/license/index.html#metadata-license"
+      },
+      "citation": "@inproceedings{otting2026mamba,\n  title     = {Multi-Stage Mamba-Based Architecture for Fast and Scalable Superconducting Qubit Readout},\n  author    = {Otting, Luca and Guo, Xiaorang and Giortamis, Emmanouil and Lienhard, Benjamin and Bhatotia, Pramod and Schulz, Martin},\n  booktitle = {IEEE International Conference on Quantum Computing and Engineering (QCE)},\n  year      = {2026},\n  eprint    = {2607.11668},\n  archivePrefix = {arXiv}\n}",
+      "bibtexSource": "https://manosgior.github.io/publications",
+      "image": "papers/mamba-readout.jpg",
+      "resources": [
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/abs/2607.11668"
+        }
+      ],
+      "note": "Mamba Readout is a short display name for this publication.",
+      "name": "Mamba Readout",
+      "summary": "A multi-stage Mamba model classifies superconducting qubit states from readout signals.",
+      "overview": [
+        "A multi-stage Mamba model classifies superconducting qubit states from readout signals.",
+        "The first stage classifies qubit states. A refinement stage identifies errors caused by qubit relaxation. The model supports short measurement windows."
+      ],
+      "method": [
+        "A Mamba model processes readout sequences.",
+        "The first stage classifies the initial qubit state.",
+        "The refinement stage reduces relaxation errors."
+      ],
+      "illustration": "illustrations/mamba-readout.svg",
+      "illustrationAlt": "Mamba Readout conceptual illustration",
+      "sortDate": "2026-09",
+      "sortDateSource": "https://qce.quantum.ieee.org/2026/news-and-updates/",
+      "sortDateBasis": "Conference month from the official schedule."
+    },
+    {
+      "slug": "rushhour",
+      "projectSlug": "fault-tolerant-compilation",
+      "title": "RushHour: A Dynamically Reconfigurable Lattice-Surgery Architecture",
+      "authors": [
+        "Nathaniel Tornow",
+        "Aleksandra Swierkowska",
+        "Peter Wegmann",
+        "Pramod Bhatotia"
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "status": "Preprint",
+      "abstract": "Practical fault-tolerant quantum computing (FTQC) requires efficient lattice surgery (LS), so that large algorithms fit on resource-constrained quantum chips. Existing approaches, however, are rigid: qubits, routing space, and resource states are allocated ahead of execution, which prevents running on small chips, leaves statically scheduled executions with large time overheads, and fixes each design at a single area of the space-time trade-off.\n\nWe present dynamic LS, which enables efficient reconfiguration of the ancilla space, just-in-time allocation of resource states, and dynamic rotations of logical qubits, thereby spanning the entire space-time trade-off with a single, unified approach. We realize dynamic LS with RushHour through a hardware-compiler co-design: the RushHour ISA formalizes and programs our dynamic lattice model, the Lattice Management Unit abstracts dynamic lattice management and performs efficient lattice reconfiguration, and the RushHour Compiler compiles logical circuits for physical chips into optimized ISA programs while pipelining instructions.\n\nWe evaluate RushHour against six state-of-the-art compilers and two resource models. On the smallest chips, 86% of benchmarks run only with RushHour, while existing approaches require 1.2-3.5x larger chips. On space-constrained early-FTQC chips, RushHour runs a median 2.3-7.2x faster than the best feasible alternative, while achieving results comparable to the state of the art on very large chips. RushHour's constructive results run 4.8x from an idealized-machine resource limit.",
+      "abstractSource": "https://arxiv.org/abs/2608.18985",
+      "abstractLicense": {
+        "name": "CC0 1.0",
+        "scope": "arXiv abstract metadata",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": "https://info.arxiv.org/help/license/index.html#metadata-license"
+      },
+      "citation": "@misc{tornow2026rushhourdynamicallyreconfigurablelatticesurgery,\n      title={RushHour: A Dynamically Reconfigurable Lattice-Surgery Architecture}, \n      author={Nathaniel Tornow and Aleksandra {\\'S}wierkowska and Peter Wegmann and Pramod Bhatotia},\n      year={2026},\n      eprint={2608.18985},\n      archivePrefix={arXiv},\n      primaryClass={quant-ph},\n      url={https://arxiv.org/abs/2608.18985}, \n}",
+      "bibtexSource": "https://arxiv.org/bibtex/2608.18985",
+      "image": "papers/rushhour.jpg",
+      "resources": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/pdf/2608.18985"
+        },
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/abs/2608.18985"
+        }
+      ],
+      "note": "",
+      "name": "RushHour",
+      "summary": "RushHour reconfigures lattice-surgery layouts during execution to fit fault-tolerant programs onto smaller quantum chips.",
+      "overview": [
+        "RushHour reconfigures lattice-surgery layouts during execution to fit fault-tolerant programs onto smaller quantum chips.",
+        "RushHour coordinates logical qubit movement, routing space, and resource-state allocation. Its instruction set, lattice controller, and compiler support dynamic layouts."
+      ],
+      "method": [
+        "The instruction set defines dynamic lattice operations and resource-state allocation.",
+        "The Lattice Management Unit manages layout changes and access to logical qubits.",
+        "The compiler maps logical circuits onto physical chips and overlaps instruction execution."
+      ],
+      "illustration": "illustrations/rushhour.svg",
+      "illustrationAlt": "RushHour conceptual illustration",
+      "sortDate": "2026-08-19",
+      "sortDateSource": "https://arxiv.org/abs/2608.18985",
+      "sortDateBasis": "First submission date from arXiv."
+    },
+    {
+      "slug": "harvest",
+      "projectSlug": "fault-tolerant-compilation",
+      "title": "Harvest: Resource-Aware Quantum Compilation for Magic State Protocols",
+      "authors": [
+        "Jannik Pflieger",
+        "Aleksandra Swierkowska",
+        "Emmanouil Giortamis",
+        "Pramod Bhatotia"
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "status": "Preprint",
+      "abstract": "Fault-tolerant quantum processors based on topological codes execute programs through lattice surgery, where operations must be mapped, routed, and supplied with magic states across a 2D grid of physical patches. Non-Clifford operations require these magic states, produced either by distillation factories or by cultivation, each trading footprint against preparation latency, and delivering a magic state to the data patches that consume it requires routing through the same shared layout as every other operation. Yet placement, routing, scheduling, and magic-state supply cannot be optimized in isolation: two operations with no circuit-level dependency can still contend for the same ports, routes, or magic-state terminals once placed, so a compiler that decouples instruction scheduling from magic-state generation, or hard-codes a single generation protocol, is forced to trade execution time against layout footprint instead of co-optimizing both across protocols.\n\nWe present Harvest, a resource-aware compilation approach for lattice-surgery that co-optimizes magic-state consumption with circuit-aware placement and congestion-aware routing under a protocol-agnostic resource model, then reclaims unused layout footprint after scheduling. Across standard benchmark suites (QAOA, QFT, QASMBench), Harvest achieves an average speedup of 4.83x (up to 17.8x) over sequential execution, improves schedule length by up to 1.35x through circuit-aware placement, and reclaims up to 72.0% of unused magic-state patches and 33.9% of unused routing patches.",
+      "abstractSource": "https://arxiv.org/abs/2608.03315",
+      "abstractLicense": {
+        "name": "CC0 1.0",
+        "scope": "arXiv abstract metadata",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": "https://info.arxiv.org/help/license/index.html#metadata-license"
+      },
+      "citation": "@misc{pflieger2026harvestresourceawarequantumcompilation,\n      title={Harvest: Resource-Aware Quantum Compilation for Magic State Protocols}, \n      author={Jannik Pflieger and Aleksandra {\\'S}wierkowska and Emmanouil Giortamis and Pramod Bhatotia},\n      year={2026},\n      eprint={2608.03315},\n      archivePrefix={arXiv},\n      primaryClass={quant-ph},\n      url={https://arxiv.org/abs/2608.03315}, \n}",
+      "bibtexSource": "https://arxiv.org/bibtex/2608.03315",
+      "image": "papers/harvest.jpg",
+      "resources": [
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/pdf/2608.03315"
+        }
+      ],
+      "note": "",
+      "name": "Harvest",
+      "summary": "Harvest coordinates layout, routing, and magic-state supply for fault-tolerant quantum programs.",
+      "overview": [
+        "Harvest coordinates layout, routing, and magic-state supply for fault-tolerant quantum programs.",
+        "Harvest compiles lattice-surgery programs under a shared resource model. It coordinates circuit placement, routing, and magic-state generation. It then removes unused layout space."
+      ],
+      "method": [
+        "The resource model supports multiple magic-state generation protocols.",
+        "Placement and routing account for circuit demand and congestion.",
+        "A final pass reclaims unused layout patches."
+      ],
+      "illustration": "illustrations/harvest.svg",
+      "illustrationAlt": "Harvest conceptual illustration",
+      "sortDate": "2026-08-04",
+      "sortDateSource": "https://arxiv.org/abs/2608.03315",
+      "sortDateBasis": "First submission date from arXiv."
+    },
+    {
+      "slug": "zero-g",
+      "projectSlug": "error-correction",
+      "title": "Zero-G: A Pre-Decoder-Aware Decoder for Quantum Error Correction",
+      "authors": [
+        "Peter Wegmann",
+        "Theofilos Augoustis",
+        "Aleksandra Swierkowska",
+        "Emmanouil Giortamis",
+        "Pramod Bhatotia"
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "status": "Preprint",
+      "abstract": "Fault-tolerant quantum computing requires classical decoders that keep pace with the underlying hardware, translating syndrome measurements into corrections fast enough to avoid an exponential backlog. To meet this real-time constraint, pre-decoders have emerged as part of a hierarchical decoding approach to resolve simple, local errors before passing a sparser residual syndrome to a strong decoder. While pre-decoding should, in theory, speed up the strong decoder, in practice, the speedup is only marginal, since existing strong decoders are designed to decode dense syndromes and cannot exploit the sparsity provided by pre-decoders. To address this, we present Zero-G, a strong decoder designed for use alongside pre-decoders. As a stochastic approximate minimum-weight perfect matching (MWPM) decoder, Zero-G exploits sparse residual syndromes, dynamically trading latency for accuracy rather than relying on an all-or-nothing runtime-accuracy trade-off. By decoupling hardware control from the decoding core itself, we enable heterogeneous deployment across both FPGAs and CPUs without maintaining separate implementations. Zero-G achieves a 10x latency improvement over existing strong decoders at matching accuracy, with worst-case sub-350ns decoding at code distances up to d=15, while scaling to 640 logical qubits on a single 128-core CPU and 32 logical qubits on a single AMD Versal V80 FPGA.",
+      "abstractSource": "https://arxiv.org/abs/2608.02030",
+      "abstractLicense": {
+        "name": "CC0 1.0",
+        "scope": "arXiv abstract metadata",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": "https://info.arxiv.org/help/license/index.html#metadata-license"
+      },
+      "citation": "@misc{wegmann2026zerogpredecoderawaredecoderquantum,\n      title={Zero-G: A Pre-Decoder-Aware Decoder for Quantum Error Correction}, \n      author={Peter Wegmann and Theofilos Augoustis and Aleksandra {\\'S}wierkowska and Emmanouil Giortamis and Pramod Bhatotia},\n      year={2026},\n      eprint={2608.02030},\n      archivePrefix={arXiv},\n      primaryClass={quant-ph},\n      url={https://arxiv.org/abs/2608.02030}, \n}",
+      "bibtexSource": "https://arxiv.org/bibtex/2608.02030",
+      "image": "papers/zero-g.jpg",
+      "resources": [
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/abs/2608.02030"
+        }
+      ],
+      "note": "",
+      "name": "Zero-G",
+      "summary": "Zero-G decodes the sparse error signals left by a quantum pre-decoder.",
+      "overview": [
+        "Zero-G decodes the sparse error signals left by a quantum pre-decoder.",
+        "A pre-decoder resolves simple local errors before the main decoder runs. Zero-G uses the remaining sparse signals to reduce decoding latency."
+      ],
+      "method": [
+        "A pre-decoder resolves simple local errors.",
+        "Zero-G uses approximate matching to decode the residual signals.",
+        "A shared decoding core supports CPU and FPGA execution."
+      ],
+      "illustration": "illustrations/zero-g.svg",
+      "illustrationAlt": "Zero-G conceptual illustration",
+      "sortDate": "2026-08-03",
+      "sortDateSource": "https://arxiv.org/abs/2608.02030",
+      "sortDateBasis": "First submission date from arXiv."
+    },
+    {
+      "slug": "oraqle",
+      "projectSlug": "readout-control",
+      "title": "Oraqle: An Empirical Analysis of Qubit Readout and Discriminators in Quantum Error Correction",
+      "authors": [
+        "Emmanouil Giortamis",
+        "Aleksandra Swierkowska",
+        "Sandra Stankovic",
+        "Felix Gust",
+        "Benjamin Lienhard",
+        "Pramod Bhatotia"
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "status": "Preprint",
+      "abstract": "Quantum error correction (QEC) is the most promising route toward fault-tolerant quantum computing and, thus, useful quantum computers. QEC operates as a continuous measure-decode-correct cycle: ancilla qubits are read out, a decoder infers errors from the resulting syndromes, and corrections are applied before the next round begins. Within this loop, readout occupies a uniquely critical role, as it is the sole source of ground truth available to the decoder. Yet readout is also the slowest and most error-prone operation in the stack, with characteristics that vary across qubits and drift over time; This complexity propagates directly to the classical control hardware, and in particular to the FPGA-hosted machine-learning (ML) discriminator that must classify each analog signal into a binary syndrome outcome. Despite this central role, QEC performance has not yet been studied in depth from the perspective of readout characteristics, readout length, and their co-design with an ML discriminator.\n\nWe introduce Oraqle, an end-to-end benchmarking framework that evaluates qubit-state readout and its impact on QEC performance across real experimentally extracted qubit-state-readout datasets, state-of-the-art ML discriminators, multiple QEC codes, and hardware regimes spanning current to projected devices. Our study reveals three asymmetric findings: The measurement duration can be significantly reduced with nearly no penalty to the logical error rate; The discriminator complexity barely affects the QEC performance, as residual errors are written into device physics rather than the model; and the impact of qubit-state readout on the logical error rate is conditional on where the hardware sits in the QEC landscape, a window that widens as devices mature.",
+      "abstractSource": "https://arxiv.org/abs/2608.01939",
+      "abstractLicense": {
+        "name": "CC0 1.0",
+        "scope": "arXiv abstract metadata",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": "https://info.arxiv.org/help/license/index.html#metadata-license"
+      },
+      "citation": "@misc{giortamis2026oraqleempiricalanalysisqubit,\n      title={Oraqle: An Empirical Analysis of Qubit Readout and Discriminators in Quantum Error Correction}, \n      author={Emmanouil Giortamis and Aleksandra {\\'S}wierkowska and Sandra Stankovic and Felix Gust and Benjamin Lienhard and Pramod Bhatotia},\n      year={2026},\n      eprint={2608.01939},\n      archivePrefix={arXiv},\n      primaryClass={quant-ph},\n      url={https://arxiv.org/abs/2608.01939}, \n}",
+      "bibtexSource": "https://arxiv.org/bibtex/2608.01939",
+      "image": "papers/oraqle.jpg",
+      "resources": [
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/pdf/2608.01939v1"
+        }
+      ],
+      "note": "",
+      "name": "Oraqle",
+      "summary": "Oraqle measures how qubit readout and state classifiers affect quantum error correction.",
+      "overview": [
+        "Oraqle measures how qubit readout and state classifiers affect quantum error correction.",
+        "Oraqle combines experimental readout data with state classifiers and error correction codes. It evaluates measurement duration and classifier complexity across hardware conditions."
+      ],
+      "method": [
+        "The benchmark uses experimental qubit readout data.",
+        "Experiments compare classifiers and measurement durations.",
+        "The framework measures the resulting logical error rates."
+      ],
+      "illustration": "illustrations/oraqle.svg",
+      "illustrationAlt": "Oraqle conceptual illustration",
+      "sortDate": "2026-08-03",
+      "sortDateSource": "https://arxiv.org/abs/2608.01939",
+      "sortDateBasis": "First submission date from arXiv."
+    },
+    {
+      "slug": "qtpu",
+      "projectSlug": "hybrid-computing",
+      "title": "qTPU: Hybrid Tensor Networks for Quantum-Classical Acceleration",
+      "authors": [
+        "Nathaniel Tornow",
+        "Emmanouil Giortamis",
+        "Dennis Sprokholt",
+        "Christian B. Mendl",
+        "Pramod Bhatotia"
+      ],
+      "year": 2026,
+      "venue": "OSDI",
+      "status": "Publication",
+      "abstract": "Classical accelerators (GPUs, TPUs) excel at high-performance computing but cannot efficiently represent problems that scale exponentially, such as highly entangled quantum states. Quantum processors (QPUs) address these intractable problems but are constrained by noise, high error rates, and low throughput. This necessitates hybrid quantum-classical execution: computationally complex kernels are offloaded to QPUs, while scalable computation runs on classical accelerators.\n\nDespite this clear need for hybrid systems, we currently lack a concise programming paradigm for expressing and optimizing them. Developers must manually partition and orchestrate applications across quantum and classical hardware through ad hoc approaches that produce fragmented, inflexible workflows. This prevents holistic optimization across the quantum-classical interface and limits scalability.\n\nTo this end, we introduce the hybrid tensor network (hTN) abstraction--a unified representation capturing quantum-classical computation--realized in qTPU, an end-to-end system comprising: the qTPU programming model for declarative hybrid computation specification; the qTPU compiler for holistic hTN optimization balancing classical cost against quantum error; and the qTPU runtime for scalable execution across heterogeneous QPUs and classical accelerators.\n\nOur evaluation demonstrates that qTPU achieves 3-4 orders of magnitude lower classical overhead, up to 7.2x lower quantum error rates, up to 53x faster compilation, and over 20x end-to-end speedups across hybrid ML, circuit knitting, and quantum error mitigation.",
+      "abstractSource": "https://www.usenix.org/conference/osdi26/presentation/tornow",
+      "abstractLicense": {
+        "name": "USENIX open-access abstract",
+        "scope": "Published abstract",
+        "url": "https://www.usenix.org/conference/osdi26/presentation/tornow",
+        "evidence": "The conference page provides the abstract and open-access media. The user is a paper author."
+      },
+      "citation": "@inproceedings {318632,\nauthor = {Nathaniel Tornow and Emmanouil Giortamis and Dennis Sprokholt and Christian Mendl and Pramod Bhatotia},\ntitle = {{qTPU}: Hybrid Tensor Networks for {Quantum-Classical} Acceleration},\nbooktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26)},\nyear = {2026},\nisbn = {978-1-939133-55-7},\naddress = {Seattle, WA},\npages = {2367--2388},\nurl = {https://www.usenix.org/conference/osdi26/presentation/tornow},\npublisher = {USENIX Association},\nmonth = jul\n}",
+      "bibtexSource": "https://www.usenix.org/conference/osdi26/presentation/tornow",
+      "image": "papers/qtpu.jpg",
+      "resources": [
+        {
+          "label": "Paper",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2026/06/qtpu_osdi26.pdf"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/TUM-DSE/qtpu"
+        },
+        {
+          "label": "Slides",
+          "url": "https://docs.google.com/presentation/d/1e_DvqB05Cb7apunHeeFkTnkuWjVpaWCwKYRzEq7EoOQ/edit?usp=sharing"
+        },
+        {
+          "label": "Proceedings",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/tornow"
+        }
+      ],
+      "note": "",
+      "name": "qTPU",
+      "summary": "qTPU combines quantum processors and classical accelerators through hybrid tensor networks.",
+      "overview": [
+        "qTPU combines quantum processors and classical accelerators through hybrid tensor networks.",
+        "Hybrid tensor networks represent quantum and classical computation together. qTPU provides a programming model, compiler, and runtime for this representation."
+      ],
+      "method": [
+        "The programming model expresses hybrid computation through tensor networks.",
+        "The compiler balances classical computation cost against quantum error.",
+        "The runtime executes across quantum processors and classical accelerators."
+      ],
+      "illustration": "illustrations/qtpu.svg",
+      "illustrationAlt": "qTPU conceptual illustration",
+      "sortDate": "2026-07",
+      "sortDateSource": "https://www.usenix.org/conference/osdi26/presentation/tornow",
+      "sortDateBasis": "Publication month from the citation."
+    },
+    {
+      "slug": "eccentric",
+      "projectSlug": "error-correction",
+      "title": "ECCentric: An Empirical Analysis of Quantum Error Correction Codes",
+      "authors": [
+        "Aleksandra Swierkowska",
+        "Jannik Pflieger",
+        "Emmanouil Giortamis",
+        "Pramod Bhatotia"
+      ],
+      "year": 2026,
+      "venue": "SIGMETRICS",
+      "status": "Publication",
+      "abstract": "Quantum Error Correction (QEC) is essential for building scalable quantum computers, but a lack of systematic, end-to-end evaluation methods makes it difficult to assess how different QEC codes perform under realistic conditions. The vast diversity of codes, an expansive experimental search space, and the absence of a standardized framework prevent a thorough, holistic analysis. To address this, we introduce ECCentric, an end-to-end benchmarking framework designed to systematically evaluate QEC codes across the full quantum computing stack. ECCentric is designed to be modular, extensible, and general, allowing for a comprehensive analysis of QEC code families under varying hardware topologies, noise models, and compilation strategies.\n\nUsing ECCentric, we conduct the first systematic benchmarking of major QEC code families against realistic, mid-term quantum device parameters. Our empirical analysis reveals that intra-QPU execution significantly outperforms distributed methods, that qubit connectivity is a far more critical factor for reducing logical errors than increasing code distance, and that compiler overhead remains a major source of error. Furthermore, our findings suggest that trapped-ion architectures with qubit shuttling are the most promising near-term platforms and that on noisy devices, a strategic and selective application of QEC is necessary to avoid introducing more errors than are corrected. This study provides crucial, actionable insights for both hardware designers and practitioners, guiding the development of fault-tolerant quantum systems.",
+      "abstractSource": "https://arxiv.org/abs/2511.01062",
+      "abstractLicense": {
+        "name": "CC0 1.0",
+        "scope": "arXiv abstract metadata",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": "https://info.arxiv.org/help/license/index.html#metadata-license"
+      },
+      "citation": "@article{_wierkowska_2026,\n  title={ECCentric: An Empirical Analysis of Quantum Error Correction Codes},\n  volume={10},\n  ISSN={2476-1249},\n  url={http://dx.doi.org/10.1145/3805635},\n  DOI={10.1145/3805635},\n  number={2},\n  journal={Proceedings of the ACM on Measurement and Analysis of Computing Systems},\n  publisher={Association for Computing Machinery (ACM)},\n  author={{\\'S}wierkowska, Aleksandra and Pflieger, Jannik and Giortamis, Emmanouil and Bhatotia, Pramod},\n  year={2026},\n  month=May,\n  pages={1--33}\n}",
+      "bibtexSource": "https://api.crossref.org/works/10.1145/3805635/transform/application/x-bibtex",
+      "image": "papers/eccentric.jpg",
+      "resources": [
+        {
+          "label": "Paper",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2026/05/QECC_benchmark____camera_ready.pdf"
+        },
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/pdf/2511.01062"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/TUM-DSE/eccentric"
+        },
+        {
+          "label": "Slides",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2026/05/Eccentric-SIGMETRICS-2026.pdf"
+        },
+        {
+          "label": "Abstract",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2026/05/QECC_benchmark_Abstract.pdf"
+        },
+        {
+          "label": "Website",
+          "url": "https://eccentric-benchmark.github.io/"
+        }
+      ],
+      "note": "",
+      "name": "ECCentric",
+      "summary": "ECCentric benchmarks quantum error correction codes across the computing stack.",
+      "overview": [
+        "ECCentric benchmarks quantum error correction codes across the computing stack.",
+        "ECCentric compares code families across hardware connections, noise models, and compilation choices. Its experiments examine the costs of practical error correction."
+      ],
+      "method": [
+        "The framework compares multiple error correction code families.",
+        "Experiments vary hardware connections and noise models.",
+        "The evaluation includes compilation and distributed execution costs."
+      ],
+      "illustration": "illustrations/eccentric.svg",
+      "illustrationAlt": "ECCentric conceptual illustration",
+      "sortDate": "2026-05",
+      "sortDateSource": "https://api.crossref.org/works/10.1145/3805635/transform/application/x-bibtex",
+      "sortDateBasis": "Publication month from the citation."
+    },
+    {
+      "slug": "chipmunq",
+      "projectSlug": "fault-tolerant-compilation",
+      "title": "Chipmunq: A Fault-Tolerant Compiler for Chiplet Quantum Architectures",
+      "authors": [
+        "Peter Wegmann",
+        "Aleksandra Swierkowska",
+        "Emmanouil Giortamis",
+        "Pramod Bhatotia"
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "status": "Preprint",
+      "abstract": "As quantum computing advances toward fault-tolerance through quantum error correction, modular chiplet architectures have emerged to provide the massive qubit counts required while overcoming fabrication limits of monolithic chips. However, this transition introduces a critical compilation gap: existing frameworks cannot handle the scale of fault-tolerant quantum circuits while managing the noisy, sparse interconnects of chiplet backends.\n\nWe present Chipmunq, the first hardware-aware compiler for mapping and routing fault-tolerant circuits onto modular architectures. Chipmunq employs a quantum-error-correction-aware partitioning strategy that preserves the integrity of logical qubit patches, preventing prohibitive gate overheads common in general-purpose compilers. Our evaluation demonstrates that Chipmunq achieves a 13.5x speedup in compilation time compared to state-of-the-art tools. By incorporating chiplet constraints and defective qubits, it reduces circuit depth by 86.4% and SWAP gate counts by 91.4% across varying code distances. Crucially, Chipmunq overcomes heterogeneous inter-chiplet links, improving logical error rates by up to two orders of magnitude.",
+      "abstractSource": "https://arxiv.org/abs/2603.16389",
+      "abstractLicense": {
+        "name": "CC0 1.0",
+        "scope": "arXiv abstract metadata",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": "https://info.arxiv.org/help/license/index.html#metadata-license"
+      },
+      "citation": "@misc{wegmann2026chipmunqfaulttolerantcompilerchiplet,\n      title={Chipmunq: A Fault-Tolerant Compiler for Chiplet Quantum Architectures}, \n      author={Peter Wegmann and Aleksandra {\\'S}wierkowska and Emmanouil Giortamis and Pramod Bhatotia},\n      year={2026},\n      eprint={2603.16389},\n      archivePrefix={arXiv},\n      primaryClass={quant-ph},\n      url={https://arxiv.org/abs/2603.16389}, \n}",
+      "bibtexSource": "https://arxiv.org/bibtex/2603.16389",
+      "image": "papers/chipmunq.jpg",
+      "resources": [
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/pdf/2603.16389"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/Wegii/chipmunq"
+        }
+      ],
+      "note": "The lab also lists this work under XXX 2027. The venue remains unspecified.",
+      "name": "Chipmunq",
+      "summary": "Chipmunq maps fault-tolerant circuits onto modular quantum chiplets.",
+      "overview": [
+        "Chipmunq maps fault-tolerant circuits onto modular quantum chiplets.",
+        "Chipmunq partitions circuits while preserving logical qubit patches. Its mapping and routing account for chiplet connections and defective qubits."
+      ],
+      "method": [
+        "Partitioning preserves logical qubit patches.",
+        "Mapping accounts for sparse connections between chiplets.",
+        "Routing incorporates defective qubits and hardware constraints."
+      ],
+      "illustration": "illustrations/chipmunq.svg",
+      "illustrationAlt": "Chipmunq conceptual illustration",
+      "sortDate": "2026-03-17",
+      "sortDateSource": "https://arxiv.org/abs/2603.16389",
+      "sortDateBasis": "First submission date from arXiv."
+    },
+    {
+      "slug": "qonductor",
+      "projectSlug": "hybrid-computing",
+      "title": "Qonductor: A Cloud Orchestrator for Quantum Computing",
+      "authors": [
+        "Emmanouil Giortamis",
+        "Francisco Romao",
+        "Nathaniel Tornow",
+        "Dmitry Lugovoy",
+        "Pramod Bhatotia"
+      ],
+      "year": 2025,
+      "venue": "SC",
+      "status": "Publication",
+      "abstract": "We describe Qonductor, a cloud orchestrator for hybrid quantum-classical applications that run on heterogeneous hybrid resources. Qonductor abstracts away the complexity of hybrid programming and resource management by exposing the Qonductor API, a high-level and hardware-agnostic API. The resource estimator strategically balances quantum and classical resources to mitigate resource contention and the effects of hardware noise. The hybrid scheduler automates job scheduling on hybrid resources and balances the tradeoff between users' objectives of QoS and the cloud operator's objective of resource efficiency.\n\nWe implement an open-source prototype and evaluate Qonductor using more than 7000 real quantum runs on the IBM quantum cloud to simulate real cloud workloads. Qonductor achieves up to 54% lower job completion times (JCTs) while sacrificing 3% execution quality, balances the load across QPU, which increases quantum resource utilization by up to 66%, and scales with growing system sizes and loads.",
+      "abstractSource": "https://arxiv.org/abs/2408.04312",
+      "abstractLicense": {
+        "name": "CC0 1.0",
+        "scope": "arXiv abstract metadata",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": "https://info.arxiv.org/help/license/index.html#metadata-license"
+      },
+      "citation": "@inproceedings{Giortamis_2025,\n  series={SC '25},\n  title={Qonductor: A Cloud Orchestrator for Quantum Computing},\n  url={http://dx.doi.org/10.1145/3712285.3759785},\n  DOI={10.1145/3712285.3759785},\n  booktitle={Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},\n  publisher={ACM},\n  author={Giortamis, Emmanouil and Romao, Francisco and Tornow, Nathaniel and Lugovoy, Dmitry and Bhatotia, Pramod},\n  year={2025},\n  month=Nov,\n  pages={728--745},\n  collection={SC '25}\n}",
+      "bibtexSource": "https://api.crossref.org/works/10.1145/3712285.3759785/transform/application/x-bibtex",
+      "image": "papers/qonductor.jpg",
+      "resources": [
+        {
+          "label": "Paper",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2025/09/Qonductor-SC-2025.pdf"
+        },
+        {
+          "label": "Preprint",
+          "url": "https://www.arxiv.org/abs/2408.04312"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/manosgior/Qonductor-SC25"
+        },
+        {
+          "label": "Slides",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2025/11/Qonductor-SC-2025-slides.pdf"
+        },
+        {
+          "label": "Video",
+          "url": "https://youtu.be/mkwQL5Uu7hM"
+        }
+      ],
+      "note": "",
+      "name": "Qonductor",
+      "summary": "Qonductor schedules hybrid quantum-classical applications across cloud resources.",
+      "overview": [
+        "Qonductor schedules hybrid quantum-classical applications across cloud resources.",
+        "Qonductor provides a programming interface, resource estimator, and hybrid scheduler. It balances application quality and completion time against resource use."
+      ],
+      "method": [
+        "The programming interface describes hardware-independent hybrid jobs.",
+        "The resource estimator considers hardware noise and resource contention.",
+        "The scheduler balances user objectives and cloud resource use."
+      ],
+      "illustration": "illustrations/qonductor.svg",
+      "illustrationAlt": "Qonductor conceptual illustration",
+      "sortDate": "2025-11",
+      "sortDateSource": "https://api.crossref.org/works/10.1145/3712285.3759785/transform/application/x-bibtex",
+      "sortDateBasis": "Publication month from the citation.",
+      "award": "Best Student Paper Award finalist",
+      "awardSource": "https://dse.in.tum.de/publications/"
+    },
+    {
+      "slug": "qos",
+      "projectSlug": "hybrid-computing",
+      "title": "QOS: Quantum Operating System",
+      "authors": [
+        "Emmanouil Giortamis",
+        "Francisco Romao",
+        "Nathaniel Tornow",
+        "Pramod Bhatotia"
+      ],
+      "year": 2025,
+      "venue": "OSDI",
+      "status": "Publication",
+      "abstract": "Quantum computers face challenges due to hardware constraints, noise errors, and heterogeneity, and face fundamental design tradeoffs between key performance metrics such as quantum fidelity and system utilization. This substantially complicates managing quantum resources to scale the size and number of quantum algorithms that can be executed reliably in a given time.\n\nWe introduce QOS, a modular quantum operating system that holistically addresses the challenges of quantum resource management by systematically exploring key design tradeoffs across the stack. QOS exposes a hardware-agnostic API for transparent quantum job execution, mitigates hardware errors, and systematically multi-programs and schedules the jobs across space and time to achieve high quantum fidelity in a resource-efficient manner.\n\nQOS's modular design enables synergistic cross- and intra-layer optimizations, while introducing new concepts such as compatibility-based multi-programming and effective utilization.\n\nWe evaluate QOS on real quantum devices hosted by IBM, using 7000 real quantum runs of more than 70.000 benchmark instances. We show that the QOS achieves 2.6--456.5x higher fidelity, increases resource utilization by up to 9.6x, and reduces waiting times by up to 5x while sacrificing only 1--3% fidelity, on average, compared to the baselines.",
+      "abstractSource": "https://www.usenix.org/conference/osdi25/presentation/giortamis",
+      "abstractLicense": {
+        "name": "USENIX open-access abstract",
+        "scope": "Published abstract",
+        "url": "https://www.usenix.org/conference/osdi25/presentation/giortamis",
+        "evidence": "The conference page provides the abstract and open-access media. The user is a paper author."
+      },
+      "citation": "@inproceedings {308744,\nauthor = {Emmanouil Giortamis and Francisco Rom{\\~a}o and Nathaniel Tornow and Pramod Bhatotia},\ntitle = {{QOS}: Quantum Operating System},\nbooktitle = {19th USENIX Symposium on Operating Systems Design and Implementation (OSDI 25)},\nyear = {2025},\nisbn = {978-1-939133-47-2},\naddress = {Boston, MA},\npages = {429--447},\nurl = {https://www.usenix.org/conference/osdi25/presentation/giortamis},\npublisher = {USENIX Association},\nmonth = jul\n}",
+      "bibtexSource": "https://www.usenix.org/conference/osdi25/presentation/giortamis",
+      "image": "papers/qos.jpg",
+      "resources": [
+        {
+          "label": "Paper",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2025/07/QOS-OSDI-2025.pdf"
+        },
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/pdf/2406.19120"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/TUM-DSE/QOS"
+        },
+        {
+          "label": "Slides",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2025/07/QOS-OSDI-2025-slides.pdf"
+        },
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/watch?v=AJB5aGrYTf0"
+        }
+      ],
+      "note": "",
+      "name": "QOS",
+      "summary": "QOS manages quantum jobs through error mitigation, multiprogramming, and scheduling.",
+      "overview": [
+        "QOS manages quantum jobs through error mitigation, multiprogramming, and scheduling.",
+        "QOS provides a hardware-independent interface for quantum job execution. It combines compatible jobs on shared processors and schedules them across time."
+      ],
+      "method": [
+        "Error mitigation improves the reliability of quantum results.",
+        "Multiprogramming bundles compatible jobs on shared processors.",
+        "Scheduling balances waiting time and result quality."
+      ],
+      "illustration": "illustrations/qos.svg",
+      "illustrationAlt": "QOS conceptual illustration",
+      "sortDate": "2025-07",
+      "sortDateSource": "https://www.usenix.org/conference/osdi25/presentation/giortamis",
+      "sortDateBasis": "Publication month from the citation."
+    },
+    {
+      "slug": "qvm",
+      "projectSlug": "hybrid-computing",
+      "title": "QVM: Quantum Gate Virtualization Machine",
+      "authors": [
+        "Nathaniel Tornow",
+        "Emmanouil Giortamis",
+        "Pramod Bhatotia"
+      ],
+      "year": 2025,
+      "venue": "PLDI",
+      "status": "Publication",
+      "abstract": "We present the Quantum Gate Virtualization Machine (QVM), an end-to-end generic system for scalable execution of large quantum circuits with high fidelity on noisy and small quantum processors (QPUs) by leveraging gate virtualization. QVM exposes a virtual circuit intermediate representation (IR) that extends the notion of quantum circuits to incorporate gate virtualization. Based on the virtual circuit as our IR, we propose the QVM compiler--an extensible compiler infrastructure to transpile a virtual circuit through a series of modular optimization passes to produce a set of optimized circuit fragments. Lastly, these transpiled circuit fragments are executed on QPUs using our QVM runtime--a scalable and parallel infrastructure to virtualize and execute circuit fragments on a set of QPUs.\n\nWe evaluate QVM on IBM's 7- and 27-qubit QPUs. Our evaluation shows that our approach allows for the execution of circuits with up to double the number of qubits compared to the qubit-count of a QPU, while improving fidelity by 4.7x on average compared to larger QPUs and that we can effectively reduce circuit depths to only 40% of the original circuit depths.",
+      "abstractSource": "https://dse.in.tum.de/wp-content/uploads/2025/06/QVM_PLDI_2025.pdf",
+      "abstractLicense": {
+        "name": "CC BY 4.0",
+        "scope": "Published paper and abstract",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "evidence": "https://dse.in.tum.de/wp-content/uploads/2025/06/QVM_PLDI_2025.pdf",
+        "page": 1
+      },
+      "citation": "@article{Tornow_2025,\n  title={QVM: Quantum Gate Virtualization Machine},\n  volume={9},\n  ISSN={2475-1421},\n  url={http://dx.doi.org/10.1145/3729290},\n  DOI={10.1145/3729290},\n  number={PLDI},\n  journal={Proceedings of the ACM on Programming Languages},\n  publisher={Association for Computing Machinery (ACM)},\n  author={Tornow, Nathaniel and Giortamis, Emmanouil and Bhatotia, Pramod},\n  year={2025},\n  month={June},\n  pages={993--1018}\n}",
+      "bibtexSource": "https://api.crossref.org/works/10.1145/3729290/transform/application/x-bibtex",
+      "image": "papers/qvm.jpg",
+      "resources": [
+        {
+          "label": "Paper",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2025/06/QVM_PLDI_2025.pdf"
+        },
+        {
+          "label": "Preprint",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2024/06/qvm.pdf"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/TUM-DSE/qvm"
+        },
+        {
+          "label": "Slides",
+          "url": "https://docs.google.com/presentation/d/1xWrvSssuuQzs1peqt5TpN9HrQvoKM5VKe-6xOblAQ0E/edit?usp=sharing"
+        }
+      ],
+      "note": "",
+      "name": "QVM",
+      "summary": "QVM uses gate virtualization to run large quantum circuits on smaller processors.",
+      "overview": [
+        "QVM uses gate virtualization to run large quantum circuits on smaller processors.",
+        "Gate virtualization replaces selected two-qubit gates with separate operations and classical reconstruction. QVM compiles and executes the resulting circuit fragments."
+      ],
+      "method": [
+        "A virtual circuit representation records virtual gates.",
+        "Compiler passes optimize the circuit fragments.",
+        "The runtime executes fragments and reconstructs the original result."
+      ],
+      "illustration": "illustrations/qvm.svg",
+      "illustrationAlt": "QVM conceptual illustration",
+      "sortDate": "2025-06",
+      "sortDateSource": "https://api.crossref.org/works/10.1145/3729290/transform/application/x-bibtex",
+      "sortDateBasis": "Publication month from the citation."
+    },
+    {
+      "slug": "weaver",
+      "projectSlug": "neutral-atom-systems",
+      "title": "Weaver: A Retargetable Compiler Framework for FPQA Quantum Architectures",
+      "authors": [
+        "Oguzcan Kirmemis",
+        "Francisco Romao",
+        "Emmanouil Giortamis",
+        "Pramod Bhatotia"
+      ],
+      "year": 2025,
+      "venue": "CGO",
+      "status": "Publication",
+      "abstract": "While the prominent quantum computing architectures are based on superconducting technology, new quantum hardware technologies are emerging, such as Trapped Ions, Neutral Atoms (or FPQAs), Silicon Spin Qubits, etc. This diverse set of technologies presents fundamental trade-offs in terms of scalability, performance, manufacturing, and operating expenses. To manage these diverse quantum technologies, there is a growing need for a retargetable compiler that can efficiently adapt existing code to these emerging hardware platforms. Such a retargetable compiler must be extensible to support new and rapidly evolving technologies, performant with fast compilation times and high-fidelity execution, and verifiable through rigorous equivalence checking to ensure the functional equivalence of the retargeted code.\n\nTo this end, we present Weaver, the first extensible, performant, and verifiable retargetable quantum compiler framework with a focus on FPQAs due to their unique, promising features. Weaver introduces WQASM, the first formal extension of the standard OpenQASM quantum assembly with FPQA-specific instructions to support their distinct capabilities. Next, Weaver implements the WOptimizer, an extensible set of FPQA-specific optimization passes to improve execution quality. Last, the WChecker automatically checks for equivalence between the original and the retargeted code. Our evaluation shows that Weaver improves compilation times by 10^3x, execution times by 4.4x, and execution fidelity by 10%, on average, compared to superconducting and state-of-the-art (non-retargetable) FPQA compilers.",
+      "abstractSource": "https://arxiv.org/abs/2409.07870",
+      "abstractLicense": {
+        "name": "CC0 1.0",
+        "scope": "arXiv abstract metadata",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": "https://info.arxiv.org/help/license/index.html#metadata-license"
+      },
+      "citation": "@inproceedings{K_rmemi__2025,\n  series={CGO '25},\n  title={Weaver: A Retargetable Compiler Framework for FPQA Quantum Architectures},\n  url={http://dx.doi.org/10.1145/3696443.3708965},\n  DOI={10.1145/3696443.3708965},\n  booktitle={Proceedings of the 23rd ACM/IEEE International Symposium on Code Generation and Optimization},\n  publisher={ACM},\n  author={K{\\i}rmemi{\\c s}, O{\\u g}uzcan and Rom{\\~a}o, Francisco and Giortamis, Emmanouil and Bhatotia, Pramod},\n  year={2025},\n  month=Mar,\n  pages={299--316},\n  collection={CGO '25}\n}",
+      "bibtexSource": "https://api.crossref.org/works/10.1145/3696443.3708965/transform/application/x-bibtex",
+      "image": "papers/weaver.jpg",
+      "resources": [
+        {
+          "label": "Paper",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2025/01/Weaver-CGO-25.pdf"
+        },
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/abs/2409.07870"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/TUM-DSE/weaver/tree/main"
+        },
+        {
+          "label": "Slides",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2025/04/Weaver-CGO25.pdf"
+        }
+      ],
+      "note": "",
+      "name": "Weaver",
+      "summary": "Weaver compiles quantum programs for reconfigurable neutral atom architectures.",
+      "overview": [
+        "Weaver compiles quantum programs for reconfigurable neutral atom architectures.",
+        "Weaver extends OpenQASM with instructions for field-programmable quantum arrays. Its optimization passes target these architectures. An equivalence checker validates the compiled program."
+      ],
+      "method": [
+        "WQASM adds instructions for field-programmable quantum arrays.",
+        "WOptimizer applies architecture-specific compiler passes.",
+        "WChecker checks equivalence with the original quantum program."
+      ],
+      "illustration": "illustrations/weaver.svg",
+      "illustrationAlt": "Weaver conceptual illustration",
+      "sortDate": "2025-03",
+      "sortDateSource": "https://api.crossref.org/works/10.1145/3696443.3708965/transform/application/x-bibtex",
+      "sortDateBasis": "Publication month from the citation."
+    }
+  ]
+}

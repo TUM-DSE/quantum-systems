@@ -1,0 +1,9 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PersonCard from '../components/PersonCard.astro';
+import Arrow from '../components/Arrow.astro';
+import { people, currentTeam } from '../lib/content';
+const current = currentTeam;
+const alumni = people.filter((p) => p.group === 'alumni');
+---
+<Layout title="Team" active="Team"><div class="wrap"><header class="page-heading"><h1>Team</h1></header><div class="people-grid">{current.map((person) => <PersonCard person={person}/>)}</div>{alumni.length > 0 && <section class="section"><div class="section-heading"><h2>Alumni</h2></div><div class="people-grid">{alumni.map((person) => <PersonCard person={person}/>)}</div></section>}<div class="source-note"><a href="https://dse.in.tum.de/team/">Lab directory <Arrow diagonal/></a></div></div></Layout>

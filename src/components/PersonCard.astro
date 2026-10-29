@@ -1,0 +1,13 @@
+---
+import { path, type Person } from '../lib/content';
+import Arrow from './Arrow.astro';
+interface Props { person: Person }
+const { person } = Astro.props;
+const Tag = person.url ? 'a' : 'article';
+const initials = person.name.split(' ').map((name) => name[0]).join('');
+---
+<Tag class="person-card" href={person.url || undefined}>
+  <div class:list={['portrait', { 'portrait-placeholder': !person.image }]}>{person.image ? <img src={path(person.image)} alt="" width="480" height="540" loading="lazy" /> : <span aria-hidden="true">{initials}</span>}</div>
+  <div class="person-name"><h3>{person.name}</h3>{person.url && <Arrow diagonal />}</div>
+  <p>{person.role}</p>
+</Tag>

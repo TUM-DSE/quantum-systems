@@ -1,0 +1,1391 @@
+{
+  "retrieved_on": "2026-10-29",
+  "sources": [
+    {
+      "title": "Lab publications",
+      "url": "https://dse.in.tum.de/publications/"
+    },
+    {
+      "title": "Lab team",
+      "url": "https://dse.in.tum.de/team/"
+    },
+    {
+      "title": "Quantum group",
+      "url": "https://dse.in.tum.de/quantum-software-systems-group/"
+    }
+  ],
+  "projects": [
+    {
+      "slug": "multiq",
+      "category": "Compilation",
+      "summary": "MultiQ runs independent quantum circuits together on neutral atom processors.",
+      "overview": "MultiQ compiles circuits into virtual zone layouts. Its controller bundles layouts and schedules shared hardware operations. A checker verifies circuit independence.",
+      "method": [
+        "Virtual zone layouts separate compilation from physical placement.",
+        "The controller schedules independent circuits across the same processor.",
+        "The checker verifies that shared execution preserves each circuit."
+      ],
+      "result": "The evaluation reports throughput gains from 3.8 to 12.3 times for 4 to 14 concurrent circuits.",
+      "summary_source": "https://arxiv.org/abs/2601.08504",
+      "status": "Upcoming venue",
+      "display_venue": "CGO 2027",
+      "year": 2027,
+      "notes": [
+        "The publication list assigns CGO 2027. The linked preprint appeared in January 2026."
+      ],
+      "name": "MultiQ",
+      "title": "MultiQ: Multi-Programming Neutral Atom Quantum Architectures",
+      "title_original": "MultiQ: Multi-Programming Neutral Atom Quantum Architectures",
+      "authors_original": [
+        "Francisco Rom\u00e3o",
+        "Daniel Vonk",
+        "Emmanouil Giortamis",
+        "Dennis Sprokholt",
+        "Pramod Bhatotia"
+      ],
+      "authors": [
+        "Francisco Romao",
+        "Daniel Vonk",
+        "Emmanouil Giortamis",
+        "Dennis Sprokholt",
+        "Pramod Bhatotia"
+      ],
+      "source_entries": [
+        {
+          "venue": "CGO 2027",
+          "title": "MultiQ: Multi-Programming Neutral Atom Quantum Architectures"
+        }
+      ],
+      "source_url": "https://dse.in.tum.de/publications/",
+      "links": [
+        {
+          "label": "Arxiv version",
+          "url": "https://arxiv.org/pdf/2601.08504",
+          "source": "https://dse.in.tum.de/publications/"
+        }
+      ],
+      "activity_status": "The publication list does not establish whether this project remains active.",
+      "citation": {
+        "key": "multiq2027",
+        "title": "MultiQ: Multi-Programming Neutral Atom Quantum Architectures",
+        "authors": [
+          "Francisco Rom\u00e3o",
+          "Daniel Vonk",
+          "Emmanouil Giortamis",
+          "Dennis Sprokholt",
+          "Pramod Bhatotia"
+        ],
+        "year": 2027,
+        "venue": "CGO 2027",
+        "url": "https://arxiv.org/abs/2601.08504",
+        "eprint": "2601.08504",
+        "doi": null,
+        "note": "This record includes verified metadata only."
+      },
+      "group_page": {
+        "section": "Current Active Projects",
+        "label": "Multi-programming for Neutral Atoms Quantum Computers",
+        "relationship": "Related topic",
+        "source_url": "https://dse.in.tum.de/quantum-software-systems-group/",
+        "recency_note": "The group page contains outdated team roles. Treat its activity labels as source labels with unconfirmed freshness."
+      }
+    },
+    {
+      "slug": "chipmunq",
+      "category": "Compilation",
+      "summary": "Chipmunq maps fault-tolerant circuits onto modular quantum chiplets.",
+      "overview": "Chipmunq partitions circuits while preserving logical qubit patches. Its mapping and routing account for chiplet connections and defective qubits.",
+      "method": [
+        "Partitioning preserves logical qubit patches.",
+        "Mapping accounts for sparse connections between chiplets.",
+        "Routing incorporates defective qubits and hardware constraints."
+      ],
+      "result": "The evaluation reports 13.5 times faster compilation than the compared tools.",
+      "summary_source": "https://arxiv.org/abs/2603.16389",
+      "status": "Preprint",
+      "display_venue": "arXiv 2026",
+      "year": 2026,
+      "notes": [
+        "The source lists the same paper under Arxiv 2026 and XXX 2027.",
+        "XXX is an unresolved venue placeholder. The website should use the verified preprint status."
+      ],
+      "name": "Chipmunq",
+      "title": "Chipmunq: A Fault-Tolerant Compiler for Chiplet Quantum Architectures",
+      "title_original": "Chipmunq: A Fault-Tolerant Compiler for Chiplet Quantum Architectures",
+      "authors_original": [
+        "Peter Wegmann",
+        "Aleksandra \u015awierkowska",
+        "Emmanouil Giortamis",
+        "Pramod Bhatotia"
+      ],
+      "authors": [
+        "Peter Wegmann",
+        "Aleksandra Swierkowska",
+        "Emmanouil Giortamis",
+        "Pramod Bhatotia"
+      ],
+      "source_entries": [
+        {
+          "venue": "XXX 2027",
+          "title": "Chipmunq: A Fault-Tolerant Compiler for Chiplet Quantum Architectures"
+        },
+        {
+          "venue": "Arxiv 2026",
+          "title": "Chipmunq: A Fault-Tolerant Compiler for Chiplet Quantum Architectures"
+        }
+      ],
+      "source_url": "https://dse.in.tum.de/publications/",
+      "links": [
+        {
+          "label": "Code",
+          "url": "https://github.com/Wegii/chipmunq",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Arxiv version",
+          "url": "https://arxiv.org/pdf/2603.16389",
+          "source": "https://dse.in.tum.de/publications/"
+        }
+      ],
+      "activity_status": "The publication list does not establish whether this project remains active.",
+      "citation": {
+        "key": "chipmunq2026",
+        "title": "Chipmunq: A Fault-Tolerant Compiler for Chiplet Quantum Architectures",
+        "authors": [
+          "Peter Wegmann",
+          "Aleksandra \u015awierkowska",
+          "Emmanouil Giortamis",
+          "Pramod Bhatotia"
+        ],
+        "year": 2026,
+        "venue": "arXiv 2026",
+        "url": "https://arxiv.org/abs/2603.16389",
+        "eprint": "2603.16389",
+        "doi": null,
+        "note": "This record includes verified metadata only."
+      }
+    },
+    {
+      "slug": "mcmit",
+      "category": "Readout",
+      "summary": "MCMit combines hardware control and software mitigation for measurements during quantum circuit execution.",
+      "overview": "MCMit reduces errors from measurement and classical feedback. It combines a branch instruction, qubit-state classifiers, and compiler transformations.",
+      "method": [
+        "A multi-control branch instruction reduces classical feedback latency.",
+        "Neural classifiers identify qubit states from short readout traces.",
+        "Compiler transformations mitigate remaining branching errors."
+      ],
+      "result": "The Qubic evaluation reports up to 70 percent lower feedback latency.",
+      "summary_source": "https://arxiv.org/abs/2604.25863",
+      "status": "Publication",
+      "display_venue": "MICRO 2026",
+      "year": 2026,
+      "notes": [],
+      "name": "MCMit",
+      "title": "MCMit: Hardware-Software Co-Design for Mid-circuit Measurement Error Mitigation",
+      "title_original": "MCMit: Hardware-Software Co-Design for Mid-circuit Measurement Error Mitigation",
+      "authors_original": [
+        "Emmanouil Giortamis",
+        "Felix Gust",
+        "Aleksandra \u015awierkowska",
+        "Sandra Stankovic",
+        "Innocenzo Fulginiti",
+        "Yanbin Chen",
+        "Xiaorang Guo",
+        "Benjamin Lienhard",
+        "Martin Schulz",
+        "Pramod Bhatotia"
+      ],
+      "authors": [
+        "Emmanouil Giortamis",
+        "Felix Gust",
+        "Aleksandra Swierkowska",
+        "Sandra Stankovic",
+        "Innocenzo Fulginiti",
+        "Yanbin Chen",
+        "Xiaorang Guo",
+        "Benjamin Lienhard",
+        "Martin Schulz",
+        "Pramod Bhatotia"
+      ],
+      "source_entries": [
+        {
+          "venue": "MICRO 2026",
+          "title": "MCMit: Hardware-Software Co-Design for Mid-circuit Measurement Error Mitigation"
+        }
+      ],
+      "source_url": "https://dse.in.tum.de/publications/",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2026/10/mcmit_micro26.pdf",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Presentation",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2026/10/mcmit_micro26_slides.pdf",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/manosgior/MCMit",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Arxiv version",
+          "url": "https://arxiv.org/abs/2604.25863",
+          "source": "https://dse.in.tum.de/publications/"
+        }
+      ],
+      "activity_status": "The publication list does not establish whether this project remains active.",
+      "citation": {
+        "key": "mcmit2026",
+        "title": "MCMit: Hardware-Software Co-Design for Mid-circuit Measurement Error Mitigation",
+        "authors": [
+          "Emmanouil Giortamis",
+          "Felix Gust",
+          "Aleksandra \u015awierkowska",
+          "Sandra Stankovic",
+          "Innocenzo Fulginiti",
+          "Yanbin Chen",
+          "Xiaorang Guo",
+          "Benjamin Lienhard",
+          "Martin Schulz",
+          "Pramod Bhatotia"
+        ],
+        "year": 2026,
+        "venue": "MICRO 2026",
+        "url": "https://dse.in.tum.de/wp-content/uploads/2026/10/mcmit_micro26.pdf",
+        "eprint": "2604.25863",
+        "doi": null,
+        "note": "This record includes verified metadata only."
+      },
+      "group_page": {
+        "section": "Current Active Projects",
+        "label": "Compiler for Mid-circuit Measurement Error Mitigation",
+        "relationship": "Related topic",
+        "source_url": "https://dse.in.tum.de/quantum-software-systems-group/",
+        "recency_note": "The group page contains outdated team roles. Treat its activity labels as source labels with unconfirmed freshness."
+      }
+    },
+    {
+      "slug": "mamba-readout",
+      "category": "Readout",
+      "summary": "A multi-stage Mamba model classifies superconducting qubit states from readout signals.",
+      "overview": "The first stage classifies qubit states. A refinement stage identifies errors caused by qubit relaxation. The model supports short measurement windows.",
+      "method": [
+        "A Mamba model processes readout sequences.",
+        "The first stage classifies the initial qubit state.",
+        "The refinement stage reduces relaxation errors."
+      ],
+      "result": "The lightweight model reaches 0.906 geometric mean readout fidelity with 49.6 percent fewer parameters than the compared method.",
+      "summary_source": "https://arxiv.org/abs/2607.11668",
+      "status": "Publication",
+      "display_venue": "QCE 2026",
+      "year": 2026,
+      "notes": [
+        "Mamba Readout is a website navigation label, not an official project acronym.",
+        "The publication list contains no resource links. The arXiv record confirms the title, authors, and QCE acceptance."
+      ],
+      "name": "Mamba Readout",
+      "title": "Multi-Stage Mamba-Based Architecture for Fast and Scalable Superconducting Qubit Readout",
+      "title_original": "Multi-Stage Mamba-Based Architecture for Fast and Scalable Superconducting Qubit Readout",
+      "authors_original": [
+        "Luca Otting",
+        "Xiaorang Guo",
+        "Emmanouil Giortamis",
+        "Benjamin Lienhard",
+        "Pramod Bhatotia",
+        "Martin Schulz"
+      ],
+      "authors": [
+        "Luca Otting",
+        "Xiaorang Guo",
+        "Emmanouil Giortamis",
+        "Benjamin Lienhard",
+        "Pramod Bhatotia",
+        "Martin Schulz"
+      ],
+      "source_entries": [
+        {
+          "venue": "QCE 2026",
+          "title": "Multi-Stage Mamba-Based Architecture for Fast and Scalable Superconducting Qubit Readout"
+        }
+      ],
+      "source_url": "https://dse.in.tum.de/publications/",
+      "links": [
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/abs/2607.11668",
+          "source": "https://arxiv.org/abs/2607.11668"
+        }
+      ],
+      "activity_status": "The publication list does not establish whether this project remains active.",
+      "citation": {
+        "key": "mambareadout2026",
+        "title": "Multi-Stage Mamba-Based Architecture for Fast and Scalable Superconducting Qubit Readout",
+        "authors": [
+          "Luca Otting",
+          "Xiaorang Guo",
+          "Emmanouil Giortamis",
+          "Benjamin Lienhard",
+          "Pramod Bhatotia",
+          "Martin Schulz"
+        ],
+        "year": 2026,
+        "venue": "QCE 2026",
+        "url": "https://arxiv.org/abs/2607.11668",
+        "eprint": "2607.11668",
+        "doi": null,
+        "note": "This record includes verified metadata only."
+      }
+    },
+    {
+      "slug": "qtpu",
+      "category": "Hybrid systems",
+      "summary": "qTPU combines quantum processors and classical accelerators through hybrid tensor networks.",
+      "overview": "Hybrid tensor networks represent quantum and classical computation together. qTPU provides a programming model, compiler, and runtime for this representation.",
+      "method": [
+        "The programming model expresses hybrid computation through tensor networks.",
+        "The compiler balances classical computation cost against quantum error.",
+        "The runtime executes across quantum processors and classical accelerators."
+      ],
+      "result": "The evaluation reports over 20 times faster execution across hybrid machine learning, circuit knitting, and error mitigation workloads.",
+      "summary_source": "https://www.usenix.org/conference/osdi26/presentation/tornow",
+      "status": "Publication",
+      "display_venue": "OSDI 2026",
+      "year": 2026,
+      "notes": [
+        "The lab lists Christian B. Mendl. The USENIX record lists Christian Mendl."
+      ],
+      "name": "qTPU",
+      "title": "qTPU: Hybrid Tensor Networks for Quantum-Classical Acceleration",
+      "title_original": "qTPU: Hybrid Tensor Networks for Quantum-Classical Acceleration",
+      "authors_original": [
+        "Nathaniel Tornow",
+        "Emmanouil Giortamis",
+        "Dennis Sprokholt",
+        "Christian B. Mendl",
+        "Pramod Bhatotia"
+      ],
+      "authors": [
+        "Nathaniel Tornow",
+        "Emmanouil Giortamis",
+        "Dennis Sprokholt",
+        "Christian B. Mendl",
+        "Pramod Bhatotia"
+      ],
+      "source_entries": [
+        {
+          "venue": "OSDI 2026",
+          "title": "qTPU: Hybrid Tensor Networks for Quantum-Classical Acceleration"
+        }
+      ],
+      "source_url": "https://dse.in.tum.de/publications/",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2026/06/qtpu_osdi26.pdf",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Presentation",
+          "url": "https://docs.google.com/presentation/d/1e_DvqB05Cb7apunHeeFkTnkuWjVpaWCwKYRzEq7EoOQ/edit?usp=sharing",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/TUM-DSE/qtpu",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Publication",
+          "url": "https://www.usenix.org/conference/osdi26/presentation/tornow",
+          "source": "https://www.usenix.org/conference/osdi26/presentation/tornow"
+        }
+      ],
+      "activity_status": "The publication list does not establish whether this project remains active.",
+      "citation": {
+        "key": "qtpu2026",
+        "title": "qTPU: Hybrid Tensor Networks for Quantum-Classical Acceleration",
+        "authors": [
+          "Nathaniel Tornow",
+          "Emmanouil Giortamis",
+          "Dennis Sprokholt",
+          "Christian B. Mendl",
+          "Pramod Bhatotia"
+        ],
+        "year": 2026,
+        "venue": "OSDI 2026",
+        "url": "https://dse.in.tum.de/wp-content/uploads/2026/06/qtpu_osdi26.pdf",
+        "eprint": null,
+        "doi": null,
+        "note": "This record includes verified metadata only."
+      },
+      "group_page": {
+        "section": "Past Projects",
+        "label": "Quantum Tensor Processor Unit (qTPU)",
+        "relationship": "Named project",
+        "source_url": "https://dse.in.tum.de/quantum-software-systems-group/",
+        "recency_note": "The group page contains outdated team roles. Treat its activity labels as source labels with unconfirmed freshness."
+      }
+    },
+    {
+      "slug": "eccentric",
+      "category": "Error correction",
+      "summary": "ECCentric benchmarks quantum error correction codes across the computing stack.",
+      "overview": "ECCentric compares code families across hardware connections, noise models, and compilation choices. Its experiments examine the costs of practical error correction.",
+      "method": [
+        "The framework compares multiple error correction code families.",
+        "Experiments vary hardware connections and noise models.",
+        "The evaluation includes compilation and distributed execution costs."
+      ],
+      "result": "The study identifies hardware connectivity and compiler overhead as major factors in logical error rates.",
+      "summary_source": "https://arxiv.org/abs/2511.01062",
+      "status": "Publication",
+      "display_venue": "SIGMETRICS 2026",
+      "year": 2026,
+      "notes": [],
+      "name": "ECCentric",
+      "title": "ECCentric: An Empirical Analysis of Quantum Error Correction Codes",
+      "title_original": "ECCentric: An Empirical Analysis of Quantum Error Correction Codes",
+      "authors_original": [
+        "Aleksandra \u015awierkowska",
+        "Jannik Pflieger",
+        "Emmanouil Giortamis",
+        "Pramod Bhatotia"
+      ],
+      "authors": [
+        "Aleksandra Swierkowska",
+        "Jannik Pflieger",
+        "Emmanouil Giortamis",
+        "Pramod Bhatotia"
+      ],
+      "source_entries": [
+        {
+          "venue": "SIGMETRICS 2026",
+          "title": "ECCentric: An Empirical Analysis of Quantum Error Correction Codes"
+        }
+      ],
+      "source_url": "https://dse.in.tum.de/publications/",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2026/05/QECC_benchmark____camera_ready.pdf",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Abstract",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2026/05/QECC_benchmark_Abstract.pdf",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Presentation",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2026/05/Eccentric-SIGMETRICS-2026.pdf",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/TUM-DSE/eccentric",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Arxiv version",
+          "url": "https://arxiv.org/pdf/2511.01062",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Project website",
+          "url": "https://eccentric-benchmark.github.io/",
+          "source": "https://dse.in.tum.de/publications/"
+        }
+      ],
+      "activity_status": "The publication list does not establish whether this project remains active.",
+      "citation": {
+        "key": "eccentric2026",
+        "title": "ECCentric: An Empirical Analysis of Quantum Error Correction Codes",
+        "authors": [
+          "Aleksandra \u015awierkowska",
+          "Jannik Pflieger",
+          "Emmanouil Giortamis",
+          "Pramod Bhatotia"
+        ],
+        "year": 2026,
+        "venue": "SIGMETRICS 2026",
+        "url": "https://dse.in.tum.de/wp-content/uploads/2026/05/QECC_benchmark____camera_ready.pdf",
+        "eprint": "2511.01062",
+        "doi": null,
+        "note": "This record includes verified metadata only."
+      },
+      "group_page": {
+        "section": "Current Active Projects",
+        "label": "Quantum Error Correction Benchmarking",
+        "relationship": "Related topic",
+        "source_url": "https://dse.in.tum.de/quantum-software-systems-group/",
+        "recency_note": "The group page contains outdated team roles. Treat its activity labels as source labels with unconfirmed freshness."
+      }
+    },
+    {
+      "slug": "zero-g",
+      "category": "Error correction",
+      "summary": "Zero-G decodes the sparse error signals left by a quantum pre-decoder.",
+      "overview": "A pre-decoder resolves simple local errors before the main decoder runs. Zero-G uses the remaining sparse signals to reduce decoding latency.",
+      "method": [
+        "A pre-decoder resolves simple local errors.",
+        "Zero-G uses approximate matching to decode the residual signals.",
+        "A shared decoding core supports CPU and FPGA execution."
+      ],
+      "result": "The evaluation reports 10 times lower latency than existing strong decoders at matching accuracy.",
+      "summary_source": "https://arxiv.org/abs/2608.02030",
+      "status": "Preprint",
+      "display_venue": "arXiv 2026",
+      "year": 2026,
+      "notes": [],
+      "name": "Zero-G",
+      "title": "Zero-G: A Pre-Decoder-Aware Decoder for Quantum Error Correction",
+      "title_original": "Zero-G: A Pre-Decoder-Aware Decoder for Quantum Error Correction",
+      "authors_original": [
+        "Peter Wegmann",
+        "Theofilos Augoustis",
+        "Aleksandra \u015awierkowska",
+        "Emmanouil Giortamis",
+        "Pramod Bhatotia"
+      ],
+      "authors": [
+        "Peter Wegmann",
+        "Theofilos Augoustis",
+        "Aleksandra Swierkowska",
+        "Emmanouil Giortamis",
+        "Pramod Bhatotia"
+      ],
+      "source_entries": [
+        {
+          "venue": "Arxiv 2026",
+          "title": "Zero-G: A Pre-Decoder-Aware Decoder for Quantum Error Correction"
+        }
+      ],
+      "source_url": "https://dse.in.tum.de/publications/",
+      "links": [
+        {
+          "label": "Arxiv version",
+          "url": "https://arxiv.org/abs/2608.02030",
+          "source": "https://dse.in.tum.de/publications/"
+        }
+      ],
+      "activity_status": "The publication list does not establish whether this project remains active.",
+      "citation": {
+        "key": "zerog2026",
+        "title": "Zero-G: A Pre-Decoder-Aware Decoder for Quantum Error Correction",
+        "authors": [
+          "Peter Wegmann",
+          "Theofilos Augoustis",
+          "Aleksandra \u015awierkowska",
+          "Emmanouil Giortamis",
+          "Pramod Bhatotia"
+        ],
+        "year": 2026,
+        "venue": "arXiv 2026",
+        "url": "https://arxiv.org/abs/2608.02030",
+        "eprint": "2608.02030",
+        "doi": null,
+        "note": "This record includes verified metadata only."
+      }
+    },
+    {
+      "slug": "oraqle",
+      "category": "Readout",
+      "summary": "Oraqle measures how qubit readout and state classifiers affect quantum error correction.",
+      "overview": "Oraqle combines experimental readout data with state classifiers and error correction codes. It evaluates measurement duration and classifier complexity across hardware conditions.",
+      "method": [
+        "The benchmark uses experimental qubit readout data.",
+        "Experiments compare classifiers and measurement durations.",
+        "The framework measures the resulting logical error rates."
+      ],
+      "result": "The study finds that shorter measurements can preserve logical error rates within the evaluated hardware conditions.",
+      "summary_source": "https://arxiv.org/abs/2608.01939",
+      "status": "Preprint",
+      "display_venue": "arXiv 2026",
+      "year": 2026,
+      "notes": [
+        "The publication list spells the venue Axiv 2026. The display label normalizes this to arXiv 2026."
+      ],
+      "name": "Oraqle",
+      "title": "Oraqle: An Empirical Analysis of Qubit Readout and Discriminators in Quantum Error Correction",
+      "title_original": "Oraqle: An Empirical Analysis of Qubit Readout and Discriminators in Quantum Error Correction",
+      "authors_original": [
+        "Emmanouil Giortamis",
+        "Aleksandra \u015awierkowska",
+        "Sandra Stankovic",
+        "Felix Gust",
+        "Benjamin Lienhard",
+        "Pramod Bhatotia"
+      ],
+      "authors": [
+        "Emmanouil Giortamis",
+        "Aleksandra Swierkowska",
+        "Sandra Stankovic",
+        "Felix Gust",
+        "Benjamin Lienhard",
+        "Pramod Bhatotia"
+      ],
+      "source_entries": [
+        {
+          "venue": "Axiv 2026",
+          "title": "Oraqle: An Empirical Analysis of Qubit Readout and Discriminators in Quantum Error Correction"
+        }
+      ],
+      "source_url": "https://dse.in.tum.de/publications/",
+      "links": [
+        {
+          "label": "Arxiv version",
+          "url": "https://arxiv.org/pdf/2608.01939v1",
+          "source": "https://dse.in.tum.de/publications/"
+        }
+      ],
+      "activity_status": "The publication list does not establish whether this project remains active.",
+      "citation": {
+        "key": "oraqle2026",
+        "title": "Oraqle: An Empirical Analysis of Qubit Readout and Discriminators in Quantum Error Correction",
+        "authors": [
+          "Emmanouil Giortamis",
+          "Aleksandra \u015awierkowska",
+          "Sandra Stankovic",
+          "Felix Gust",
+          "Benjamin Lienhard",
+          "Pramod Bhatotia"
+        ],
+        "year": 2026,
+        "venue": "arXiv 2026",
+        "url": "https://arxiv.org/abs/2608.01939",
+        "eprint": "2608.01939",
+        "doi": null,
+        "note": "This record includes verified metadata only."
+      }
+    },
+    {
+      "slug": "harvest",
+      "category": "Compilation",
+      "summary": "Harvest coordinates layout, routing, and magic-state supply for fault-tolerant quantum programs.",
+      "overview": "Harvest compiles lattice-surgery programs under a shared resource model. It coordinates circuit placement, routing, and magic-state generation. It then removes unused layout space.",
+      "method": [
+        "The resource model supports multiple magic-state generation protocols.",
+        "Placement and routing account for circuit demand and congestion.",
+        "A final pass reclaims unused layout patches."
+      ],
+      "result": "The benchmark evaluation reports an average speedup of 4.83 times over sequential execution.",
+      "summary_source": "https://arxiv.org/abs/2608.03315",
+      "status": "Preprint",
+      "display_venue": "arXiv 2026",
+      "year": 2026,
+      "notes": [],
+      "name": "Harvest",
+      "title": "Harvest: Resource-Aware Quantum Compilation for Magic State Protocols",
+      "title_original": "Harvest: Resource-Aware Quantum Compilation for Magic State Protocols",
+      "authors_original": [
+        "Jannik Pflieger",
+        "Aleksandra \u015awierkowska",
+        "Emmanouil Giortamis",
+        "Pramod Bhatotia"
+      ],
+      "authors": [
+        "Jannik Pflieger",
+        "Aleksandra Swierkowska",
+        "Emmanouil Giortamis",
+        "Pramod Bhatotia"
+      ],
+      "source_entries": [
+        {
+          "venue": "Arxiv 2026",
+          "title": "Harvest: Resource-Aware Quantum Compilation for Magic State Protocols"
+        }
+      ],
+      "source_url": "https://dse.in.tum.de/publications/",
+      "links": [
+        {
+          "label": "Arxiv version",
+          "url": "https://arxiv.org/pdf/2608.03315",
+          "source": "https://dse.in.tum.de/publications/"
+        }
+      ],
+      "activity_status": "The publication list does not establish whether this project remains active.",
+      "citation": {
+        "key": "harvest2026",
+        "title": "Harvest: Resource-Aware Quantum Compilation for Magic State Protocols",
+        "authors": [
+          "Jannik Pflieger",
+          "Aleksandra \u015awierkowska",
+          "Emmanouil Giortamis",
+          "Pramod Bhatotia"
+        ],
+        "year": 2026,
+        "venue": "arXiv 2026",
+        "url": "https://arxiv.org/abs/2608.03315",
+        "eprint": "2608.03315",
+        "doi": null,
+        "note": "This record includes verified metadata only."
+      }
+    },
+    {
+      "slug": "qonductor",
+      "category": "Cloud systems",
+      "summary": "Qonductor schedules hybrid quantum-classical applications across cloud resources.",
+      "overview": "Qonductor provides a programming interface, resource estimator, and hybrid scheduler. It balances application quality and completion time against resource use.",
+      "method": [
+        "The programming interface describes hardware-independent hybrid jobs.",
+        "The resource estimator considers hardware noise and resource contention.",
+        "The scheduler balances user objectives and cloud resource use."
+      ],
+      "result": "The evaluation reports up to 54 percent lower job completion times with a 3 percent loss in execution quality.",
+      "summary_source": "https://arxiv.org/abs/2408.04312",
+      "status": "Publication",
+      "display_venue": "SC 2025",
+      "year": 2025,
+      "notes": [],
+      "award": "Best Student Paper Award finalist",
+      "name": "Qonductor",
+      "title": "Qonductor: A Cloud Orchestrator for Quantum Computing",
+      "title_original": "Qonductor: A Cloud Orchestrator for Quantum Computing",
+      "authors_original": [
+        "Emmanouil Giortamis",
+        "Francisco Rom\u00e3o",
+        "Nathaniel Tornow",
+        "Dmitry Lugovoy",
+        "Pramod Bhatotia"
+      ],
+      "authors": [
+        "Emmanouil Giortamis",
+        "Francisco Romao",
+        "Nathaniel Tornow",
+        "Dmitry Lugovoy",
+        "Pramod Bhatotia"
+      ],
+      "source_entries": [
+        {
+          "venue": "SuperComputing (SC) 2025",
+          "title": "Qonductor: A Cloud Orchestrator for Quantum Computing"
+        }
+      ],
+      "source_url": "https://dse.in.tum.de/publications/",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2025/09/Qonductor-SC-2025.pdf",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Presentation",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2025/11/Qonductor-SC-2025-slides.pdf",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Video",
+          "url": "https://youtu.be/mkwQL5Uu7hM",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/manosgior/Qonductor-SC25",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Arxiv version",
+          "url": "https://www.arxiv.org/abs/2408.04312",
+          "source": "https://dse.in.tum.de/publications/"
+        }
+      ],
+      "activity_status": "The publication list does not establish whether this project remains active.",
+      "citation": {
+        "key": "qonductor2025",
+        "title": "Qonductor: A Cloud Orchestrator for Quantum Computing",
+        "authors": [
+          "Emmanouil Giortamis",
+          "Francisco Rom\u00e3o",
+          "Nathaniel Tornow",
+          "Dmitry Lugovoy",
+          "Pramod Bhatotia"
+        ],
+        "year": 2025,
+        "venue": "SC 2025",
+        "url": "https://dse.in.tum.de/wp-content/uploads/2025/09/Qonductor-SC-2025.pdf",
+        "eprint": "2408.04312",
+        "doi": null,
+        "note": "This record includes verified metadata only."
+      },
+      "group_page": {
+        "section": "Past Projects",
+        "label": "Qonductor: A Cloud Orchestrator for Quantum Computing",
+        "relationship": "Named project",
+        "source_url": "https://dse.in.tum.de/quantum-software-systems-group/",
+        "recency_note": "The group page contains outdated team roles. Treat its activity labels as source labels with unconfirmed freshness."
+      }
+    },
+    {
+      "slug": "qos",
+      "category": "Cloud systems",
+      "summary": "QOS manages quantum jobs through error mitigation, multiprogramming, and scheduling.",
+      "overview": "QOS provides a hardware-independent interface for quantum job execution. It combines compatible jobs on shared processors and schedules them across time.",
+      "method": [
+        "Error mitigation improves the reliability of quantum results.",
+        "Multiprogramming bundles compatible jobs on shared processors.",
+        "Scheduling balances waiting time and result quality."
+      ],
+      "result": "The evaluation reports up to 9.6 times higher resource utilization than the compared baselines.",
+      "summary_source": "https://arxiv.org/abs/2406.19120",
+      "status": "Publication",
+      "display_venue": "OSDI 2025",
+      "year": 2025,
+      "notes": [],
+      "name": "QOS",
+      "title": "QOS: Quantum Operating System",
+      "title_original": "QOS: Quantum Operating System",
+      "authors_original": [
+        "Emmanouil Giortamis",
+        "Francisco Rom\u00e3o",
+        "Nathaniel Tornow",
+        "Pramod Bhatotia"
+      ],
+      "authors": [
+        "Emmanouil Giortamis",
+        "Francisco Romao",
+        "Nathaniel Tornow",
+        "Pramod Bhatotia"
+      ],
+      "source_entries": [
+        {
+          "venue": "OSDI 2025",
+          "title": "QOS: Quantum Operating System"
+        }
+      ],
+      "source_url": "https://dse.in.tum.de/publications/",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2025/07/QOS-OSDI-2025.pdf",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Presentation",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2025/07/QOS-OSDI-2025-slides.pdf",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Video",
+          "url": "https://www.youtube.com/watch?v=AJB5aGrYTf0",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/TUM-DSE/QOS",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Arxiv version",
+          "url": "https://arxiv.org/pdf/2406.19120",
+          "source": "https://dse.in.tum.de/publications/"
+        }
+      ],
+      "activity_status": "The publication list does not establish whether this project remains active.",
+      "citation": {
+        "key": "qos2025",
+        "title": "QOS: Quantum Operating System",
+        "authors": [
+          "Emmanouil Giortamis",
+          "Francisco Rom\u00e3o",
+          "Nathaniel Tornow",
+          "Pramod Bhatotia"
+        ],
+        "year": 2025,
+        "venue": "OSDI 2025",
+        "url": "https://dse.in.tum.de/wp-content/uploads/2025/07/QOS-OSDI-2025.pdf",
+        "eprint": "2406.19120",
+        "doi": null,
+        "note": "This record includes verified metadata only."
+      },
+      "group_page": {
+        "section": "Past Projects",
+        "label": "QOS: Quantum Operating System",
+        "relationship": "Named project",
+        "source_url": "https://dse.in.tum.de/quantum-software-systems-group/",
+        "recency_note": "The group page contains outdated team roles. Treat its activity labels as source labels with unconfirmed freshness."
+      }
+    },
+    {
+      "slug": "qvm",
+      "category": "Hybrid systems",
+      "summary": "QVM uses gate virtualization to run large quantum circuits on smaller processors.",
+      "overview": "Gate virtualization replaces selected two-qubit gates with separate operations and classical reconstruction. QVM compiles and executes the resulting circuit fragments.",
+      "method": [
+        "A virtual circuit representation records virtual gates.",
+        "Compiler passes optimize the circuit fragments.",
+        "The runtime executes fragments and reconstructs the original result."
+      ],
+      "result": "The IBM evaluation runs circuits with up to twice the processor qubit count.",
+      "summary_source": "https://portal.fis.tum.de/en/publications/qvm-quantum-gate-virtualization-machine/",
+      "status": "Publication",
+      "display_venue": "PLDI 2025",
+      "year": 2025,
+      "notes": [
+        "The earlier arXiv version has the title Scaling Quantum Computations via Gate Virtualization."
+      ],
+      "doi": "10.1145/3729290",
+      "name": "QVM",
+      "title": "QVM: Quantum Gate Virtualization Machine",
+      "title_original": "QVM: Quantum Gate Virtualization Machine",
+      "authors_original": [
+        "Nathaniel Tornow",
+        "Emmanouil Giortamis",
+        "Pramod Bhatotia"
+      ],
+      "authors": [
+        "Nathaniel Tornow",
+        "Emmanouil Giortamis",
+        "Pramod Bhatotia"
+      ],
+      "source_entries": [
+        {
+          "venue": "PLDI 2025",
+          "title": "QVM: Quantum Gate Virtualization Machine"
+        }
+      ],
+      "source_url": "https://dse.in.tum.de/publications/",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2025/06/QVM_PLDI_2025.pdf",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Presentation",
+          "url": "https://docs.google.com/presentation/d/1xWrvSssuuQzs1peqt5TpN9HrQvoKM5VKe-6xOblAQ0E/edit?usp=sharing",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/TUM-DSE/qvm",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Arxiv version",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2024/06/qvm.pdf",
+          "source": "https://dse.in.tum.de/publications/"
+        }
+      ],
+      "activity_status": "The publication list does not establish whether this project remains active.",
+      "citation": {
+        "key": "qvm2025",
+        "title": "QVM: Quantum Gate Virtualization Machine",
+        "authors": [
+          "Nathaniel Tornow",
+          "Emmanouil Giortamis",
+          "Pramod Bhatotia"
+        ],
+        "year": 2025,
+        "venue": "PLDI 2025",
+        "url": "https://dse.in.tum.de/wp-content/uploads/2025/06/QVM_PLDI_2025.pdf",
+        "eprint": null,
+        "doi": "10.1145/3729290",
+        "note": "This record includes verified metadata only."
+      },
+      "group_page": {
+        "section": "Past Projects",
+        "label": "QVM: Quantum Virtual Machine",
+        "relationship": "Named project",
+        "source_url": "https://dse.in.tum.de/quantum-software-systems-group/",
+        "recency_note": "The group page contains outdated team roles. Treat its activity labels as source labels with unconfirmed freshness."
+      }
+    },
+    {
+      "slug": "weaver",
+      "category": "Compilation",
+      "summary": "Weaver compiles quantum programs for reconfigurable neutral atom architectures.",
+      "overview": "Weaver extends OpenQASM with instructions for field-programmable quantum arrays. Its optimization passes target these architectures. An equivalence checker validates the compiled program.",
+      "method": [
+        "WQASM adds instructions for field-programmable quantum arrays.",
+        "WOptimizer applies architecture-specific compiler passes.",
+        "WChecker checks equivalence with the original quantum program."
+      ],
+      "result": "The evaluation reports faster compilation and execution than the compared superconducting and neutral atom compilers.",
+      "summary_source": "https://arxiv.org/abs/2409.07870",
+      "status": "Publication",
+      "display_venue": "CGO 2025",
+      "year": 2025,
+      "notes": [
+        "The lab marks Oguzcan Kirmemis and Francisco Romao with equal-contribution asterisks."
+      ],
+      "doi": "10.1145/3696443.3708965",
+      "name": "Weaver",
+      "title": "Weaver: A Retargetable Compiler Framework for FPQA Quantum Architectures",
+      "title_original": "Weaver: A Retargetable Compiler Framework for FPQA Quantum Architectures",
+      "authors_original": [
+        "O\u011fuzcan K\u0131rmemi\u015f",
+        "Francisco Rom\u00e3o",
+        "Emmanouil Giortamis",
+        "Pramod Bhatotia"
+      ],
+      "authors": [
+        "Oguzcan Kirmemis",
+        "Francisco Romao",
+        "Emmanouil Giortamis",
+        "Pramod Bhatotia"
+      ],
+      "source_entries": [
+        {
+          "venue": "CGO 2025",
+          "title": "Weaver: A Retargetable Compiler Framework for FPQA Quantum Architectures"
+        }
+      ],
+      "source_url": "https://dse.in.tum.de/publications/",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2025/01/Weaver-CGO-25.pdf",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Presentation",
+          "url": "https://dse.in.tum.de/wp-content/uploads/2025/04/Weaver-CGO25.pdf",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/TUM-DSE/weaver/tree/main",
+          "source": "https://dse.in.tum.de/publications/"
+        },
+        {
+          "label": "Arxiv version",
+          "url": "https://arxiv.org/abs/2409.07870",
+          "source": "https://dse.in.tum.de/publications/"
+        }
+      ],
+      "activity_status": "The publication list does not establish whether this project remains active.",
+      "citation": {
+        "key": "weaver2025",
+        "title": "Weaver: A Retargetable Compiler Framework for FPQA Quantum Architectures",
+        "authors": [
+          "O\u011fuzcan K\u0131rmemi\u015f",
+          "Francisco Rom\u00e3o",
+          "Emmanouil Giortamis",
+          "Pramod Bhatotia"
+        ],
+        "year": 2025,
+        "venue": "CGO 2025",
+        "url": "https://dse.in.tum.de/wp-content/uploads/2025/01/Weaver-CGO-25.pdf",
+        "eprint": "2409.07870",
+        "doi": "10.1145/3696443.3708965",
+        "note": "This record includes verified metadata only."
+      },
+      "group_page": {
+        "section": "Past Projects",
+        "label": "Weaver: A Retargetable Compiler Framework for FPQA Quantum Architectures",
+        "relationship": "Named project",
+        "source_url": "https://dse.in.tum.de/quantum-software-systems-group/",
+        "recency_note": "The group page contains outdated team roles. Treat its activity labels as source labels with unconfirmed freshness."
+      }
+    }
+  ],
+  "current_team": [
+    {
+      "name": "Pramod Bhatotia",
+      "name_original": "Pramod Bhatotia",
+      "slug": "pramod-bhatotia",
+      "role": "Professor and Chair",
+      "profile_url": "https://dse.in.tum.de/bhatotia/",
+      "portrait_url": "https://dse.in.tum.de/wp-content/uploads/2025/11/Bhatotia-PIC-150x150.png",
+      "email": "pramod.bhatotia@tum.de",
+      "source_url": "https://dse.in.tum.de/team/",
+      "projects": [
+        "multiq",
+        "chipmunq",
+        "mcmit",
+        "mamba-readout",
+        "qtpu",
+        "eccentric",
+        "zero-g",
+        "oraqle",
+        "harvest",
+        "qonductor",
+        "qos",
+        "qvm",
+        "weaver"
+      ],
+      "membership_basis": "Current lab membership and quantum publication authorship."
+    },
+    {
+      "name": "Dennis Sprokholt",
+      "name_original": "Dennis Sprokholt",
+      "slug": "dennis-sprokholt",
+      "role": "Humboldt PostDoc Fellow",
+      "profile_url": "https://dennis.life/",
+      "portrait_url": "https://dse.in.tum.de/wp-content/uploads/2025/05/dennis-portrait-150x150.webp",
+      "email": "dennis.sprokholt@tum.de",
+      "source_url": "https://dse.in.tum.de/team/",
+      "projects": [
+        "multiq",
+        "qtpu"
+      ],
+      "membership_basis": "Current lab membership and quantum publication authorship."
+    },
+    {
+      "name": "Theofilos Augoustis",
+      "name_original": "Theofilos Augoustis",
+      "slug": "theofilos-augoustis",
+      "role": "PhD student",
+      "profile_url": "https://taugoust.github.io/",
+      "portrait_url": "https://dse.in.tum.de/wp-content/uploads/2023/01/photo_2023-01-24_12-28-23-150x150.jpg",
+      "email": "theofilos.augoustis@tum.de",
+      "source_url": "https://dse.in.tum.de/team/",
+      "projects": [
+        "zero-g"
+      ],
+      "membership_basis": "Current lab membership and quantum publication authorship."
+    },
+    {
+      "name": "Felix Gust",
+      "name_original": "Felix Gust",
+      "slug": "felix-gust",
+      "role": "PhD student",
+      "profile_url": "https://gustifix.github.io/",
+      "portrait_url": "https://dse.in.tum.de/wp-content/uploads/2023/01/IMG_0463-150x150.jpg",
+      "email": "felix.gust@tum.de",
+      "source_url": "https://dse.in.tum.de/team/",
+      "projects": [
+        "mcmit",
+        "oraqle"
+      ],
+      "membership_basis": "Current lab membership and quantum publication authorship."
+    },
+    {
+      "name": "Jannik Pflieger",
+      "name_original": "Jannik Pflieger",
+      "slug": "jannik-pflieger",
+      "role": "PhD student",
+      "profile_url": "https://jannikpflieger.github.io",
+      "portrait_url": "https://dse.in.tum.de/wp-content/uploads/2025/01/Jannik-150x150.jpeg",
+      "email": "jannik.pflieger@tum.de",
+      "source_url": "https://dse.in.tum.de/team/",
+      "projects": [
+        "eccentric",
+        "harvest"
+      ],
+      "membership_basis": "Current lab membership and quantum publication authorship."
+    },
+    {
+      "name": "Francisco Romao",
+      "name_original": "Francisco Rom\u00e3o",
+      "slug": "francisco-romao",
+      "role": "PhD student",
+      "profile_url": "https://franciscoromao.github.io/",
+      "portrait_url": "https://dse.in.tum.de/wp-content/uploads/2022/03/CartaoCidadao-150x150.jpg",
+      "email": "francisco.romao@tum.de",
+      "source_url": "https://dse.in.tum.de/team/",
+      "projects": [
+        "multiq",
+        "qonductor",
+        "qos",
+        "weaver"
+      ],
+      "membership_basis": "Current lab membership and quantum publication authorship."
+    },
+    {
+      "name": "Nathaniel Tornow",
+      "name_original": "Nathaniel Tornow",
+      "slug": "nathaniel-tornow",
+      "role": "PhD student",
+      "profile_url": "https://nathanieltornow.github.io/",
+      "portrait_url": "https://dse.in.tum.de/wp-content/uploads/2023/01/image-150x150.png",
+      "email": "nathaniel.tornow@tum.de",
+      "source_url": "https://dse.in.tum.de/team/",
+      "projects": [
+        "qtpu",
+        "qonductor",
+        "qos",
+        "qvm"
+      ],
+      "membership_basis": "Current lab membership and quantum publication authorship."
+    },
+    {
+      "name": "Aleksandra Swierkowska",
+      "name_original": "Aleksandra \u015awierkowska",
+      "slug": "aleksandra-swierkowska",
+      "role": "PhD student",
+      "profile_url": "https://aswierkowska.github.io/",
+      "portrait_url": "https://dse.in.tum.de/wp-content/uploads/2024/05/Aleksandra-Swierkowska-150x150.jpeg",
+      "email": "aleksandra.swierkowska@tum.de",
+      "source_url": "https://dse.in.tum.de/team/",
+      "projects": [
+        "chipmunq",
+        "mcmit",
+        "eccentric",
+        "zero-g",
+        "oraqle",
+        "harvest"
+      ],
+      "membership_basis": "Current lab membership and quantum publication authorship."
+    },
+    {
+      "name": "Peter Wegmann",
+      "name_original": "Peter Wegmann",
+      "slug": "peter-wegmann",
+      "role": "PhD student",
+      "profile_url": "https://wegii.github.io/",
+      "portrait_url": "https://dse.in.tum.de/wp-content/uploads/2026/09/wegmann_profile-150x150.jpeg",
+      "email": "peter.wegmann@tum.de",
+      "source_url": "https://dse.in.tum.de/team/",
+      "projects": [
+        "chipmunq",
+        "zero-g"
+      ],
+      "membership_basis": "Current lab membership and quantum publication authorship."
+    }
+  ],
+  "alumni": [
+    {
+      "name": "Emmanouil Giortamis",
+      "name_original": "Emmanouil Giortamis",
+      "slug": "emmanouil-giortamis",
+      "role": "Graduating PhD alumnus",
+      "profile_url": "https://manosgior.github.io/",
+      "portrait_url": "https://dse.in.tum.de/wp-content/uploads/2021/11/scn_0011_copy-150x150.jpg",
+      "email": null,
+      "source_url": "https://dse.in.tum.de/team/",
+      "projects": [
+        "multiq",
+        "chipmunq",
+        "mcmit",
+        "mamba-readout",
+        "qtpu",
+        "eccentric",
+        "zero-g",
+        "oraqle",
+        "harvest",
+        "qonductor",
+        "qos",
+        "qvm",
+        "weaver"
+      ],
+      "membership_basis": "The main team page lists him under Alumni, Graduating PhD Students.",
+      "conflicting_source": "The quantum group page still lists Manos Giortamis as Research Group Leader."
+    }
+  ],
+  "collaborators": [
+    {
+      "name": "Benjamin Lienhard",
+      "projects": [
+        "mcmit",
+        "mamba-readout",
+        "oraqle"
+      ],
+      "role": "Coauthor",
+      "membership_status": "Current Systems Research Group membership is unconfirmed.",
+      "source_url": "https://dse.in.tum.de/publications/"
+    },
+    {
+      "name": "Christian B. Mendl",
+      "projects": [
+        "qtpu"
+      ],
+      "role": "Coauthor",
+      "membership_status": "Current Systems Research Group membership is unconfirmed.",
+      "source_url": "https://dse.in.tum.de/publications/"
+    },
+    {
+      "name": "Daniel Vonk",
+      "projects": [
+        "multiq"
+      ],
+      "role": "Coauthor",
+      "membership_status": "Current Systems Research Group membership is unconfirmed.",
+      "source_url": "https://dse.in.tum.de/publications/"
+    },
+    {
+      "name": "Dmitry Lugovoy",
+      "projects": [
+        "qonductor"
+      ],
+      "role": "Coauthor",
+      "membership_status": "Current Systems Research Group membership is unconfirmed.",
+      "source_url": "https://dse.in.tum.de/publications/"
+    },
+    {
+      "name": "Innocenzo Fulginiti",
+      "projects": [
+        "mcmit"
+      ],
+      "role": "Coauthor",
+      "membership_status": "Current Systems Research Group membership is unconfirmed.",
+      "source_url": "https://dse.in.tum.de/publications/"
+    },
+    {
+      "name": "Luca Otting",
+      "projects": [
+        "mamba-readout"
+      ],
+      "role": "Coauthor",
+      "membership_status": "Current Systems Research Group membership is unconfirmed.",
+      "source_url": "https://dse.in.tum.de/publications/"
+    },
+    {
+      "name": "Martin Schulz",
+      "projects": [
+        "mcmit",
+        "mamba-readout"
+      ],
+      "role": "Coauthor",
+      "membership_status": "Current Systems Research Group membership is unconfirmed.",
+      "source_url": "https://dse.in.tum.de/publications/"
+    },
+    {
+      "name": "Oguzcan Kirmemis",
+      "projects": [
+        "weaver"
+      ],
+      "role": "Coauthor",
+      "membership_status": "Current Systems Research Group membership is unconfirmed.",
+      "source_url": "https://dse.in.tum.de/publications/"
+    },
+    {
+      "name": "Sandra Stankovic",
+      "projects": [
+        "mcmit",
+        "oraqle"
+      ],
+      "role": "Coauthor",
+      "membership_status": "Current Systems Research Group membership is unconfirmed.",
+      "source_url": "https://dse.in.tum.de/publications/"
+    },
+    {
+      "name": "Xiaorang Guo",
+      "projects": [
+        "mcmit",
+        "mamba-readout"
+      ],
+      "role": "Coauthor",
+      "membership_status": "Current Systems Research Group membership is unconfirmed.",
+      "source_url": "https://dse.in.tum.de/publications/"
+    },
+    {
+      "name": "Yanbin Chen",
+      "projects": [
+        "mcmit"
+      ],
+      "role": "Coauthor",
+      "membership_status": "Current Systems Research Group membership is unconfirmed.",
+      "source_url": "https://dse.in.tum.de/publications/"
+    }
+  ],
+  "notes": [
+    "The extraction contains 13 unique quantum projects from 14 publication entries.",
+    "Chipmunq appears under both 2026 and 2027.",
+    "The primary Chipmunq display uses arXiv 2026 because XXX 2027 is an unresolved venue placeholder.",
+    "The MultiQ display preserves the lab listing of CGO 2027.",
+    "The main team page supplies current roles because the quantum group page retains older roles.",
+    "The quantum group page lists Nathaniel Tornow as an MSc student. The main team page and his profile list PhD student.",
+    "The quantum group page lists Manos Giortamis as Research Group Leader. The main team page lists graduating PhD alumni.",
+    "The current team includes active lab members with quantum publication authorship. This is an evidence-based selection, not an official subgroup roster.",
+    "The collaborators list records authorship only. It does not establish external affiliation or present employment.",
+    "Project activity cannot be inferred from publication year alone.",
+    "Resource links come from the lab publication list except explicitly sourced supplemental links.",
+    "The Mamba paper has no resource links in the lab list. Its verified arXiv record supplies the preprint link.",
+    "The source link labels Arxiv and Axiv can be normalized to arXiv in the interface."
+  ]
+}

@@ -1,0 +1,21 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Arrow from '../../components/Arrow.astro';
+import PaperCard from '../../components/PaperCard.astro';
+import { projects, path, getProjectPapers } from '../../lib/content';
+export function getStaticPaths() { return projects.map((project) => ({ params: { slug: project.slug }, props: { project } })); }
+const { project } = Astro.props;
+const papers = getProjectPapers(project);
+---
+<Layout title={project.name} description={project.description} active="Projects">
+  <article class="project-page wrap">
+    <a class="back-link" href={path('projects/')}><span aria-hidden="true">&lt;</span> Projects</a>
+    <header class="project-heading"><h1>{project.name}</h1>{project.resources.length > 0 && <div class="project-resources">{project.resources.map((resource) => <a class="resource-button" href={resource.url}>{resource.label}<Arrow diagonal/></a>)}</div>}</header>
+    <figure class="project-illustration"><img src={path(project.image)} alt={project.imageAlt} width="600" height="320"/></figure>
+    <div class="project-body">
+      <section><h2>Overview</h2>{project.overview.map((paragraph) => <p>{paragraph}</p>)}</section>
+      <section><h2>Approach</h2><ol class="method-list">{project.method.map((step) => <li>{step}</li>)}</ol></section>
+      <section class="project-papers"><h2>Papers</h2>{papers.map((paper) => <PaperCard paper={paper}/>)}</section>
+    </div>
+  </article>
+</Layout>

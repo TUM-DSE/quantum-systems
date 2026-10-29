@@ -1,0 +1,6 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ProjectExplorer from '../../components/ProjectExplorer';
+import { projectPreviews, path } from '../../lib/content';
+---
+<Layout title="Projects" active="Projects"><div class="wrap"><header class="page-heading"><h1>Projects</h1></header><ProjectExplorer projects={projectPreviews} base={path()} client:load /></div></Layout>

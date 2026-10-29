@@ -1,0 +1,8 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PaperCard from '../components/PaperCard.astro';
+import Arrow from '../components/Arrow.astro';
+import { papers } from '../lib/content';
+const years = [...new Set(papers.map((paper) => paper.year))].sort((a,b) => b-a);
+---
+<Layout title="Publications" active="Publications"><div class="wrap"><header class="page-heading"><h1>Publications</h1></header><div class="publications">{years.map((year) => <section class="publication-year"><h2>{year}</h2><div>{papers.filter((paper) => paper.year === year).map((paper) => <PaperCard paper={paper}/>)}</div></section>)}</div><div class="source-note"><a href="https://dse.in.tum.de/publications/">Lab publications <Arrow diagonal/></a></div></div></Layout>

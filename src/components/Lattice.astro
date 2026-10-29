@@ -1,0 +1,15 @@
+---
+const dots = Array.from({ length: 25 }, (_, i) => ({ x: 110 + (i % 5) * 62, y: 60 + Math.floor(i / 5) * 57, solid: [0, 4, 7, 10, 12, 14, 17, 20, 24].includes(i) }));
+---
+<svg class="lattice" viewBox="0 0 500 390" fill="none" role="img" aria-label="A static schematic of connected quantum processing nodes">
+  <g stroke="currentColor" stroke-width="1">
+    {[0, 1, 2, 3, 4].map((i) => <><path d={`M80 ${60 + i * 57}H392`} opacity=".15"/><path d={`M${110 + i * 62} 30V318`} opacity=".15"/></>)}
+    <path d="M110 60H234V174H358V288H234V231H110V60Z" stroke-width="2"/>
+    <path d="M358 60H296V117H172V288H110M234 60V30M358 174H415M110 231H53M234 288V345" stroke-width="1.5"/>
+    {dots.map(({ x, y, solid }) => <g><circle cx={x} cy={y} r="12" fill={solid ? 'currentColor' : 'var(--paper)'} stroke-width="1.5"/>{solid && <circle cx={x} cy={y} r="3" fill="var(--paper)" stroke="none"/>}</g>)}
+    <circle cx="415" cy="174" r="3" fill="currentColor"/>
+    <circle cx="53" cy="231" r="3" fill="currentColor"/>
+    <circle cx="234" cy="345" r="3" fill="currentColor"/>
+    <path d="M62 12h-14v14M404 12h14v14M62 366h-14v-14M404 366h14v-14" opacity=".4"/>
+  </g>
+</svg>

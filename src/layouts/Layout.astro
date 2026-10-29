@@ -1,0 +1,43 @@
+---
+import '@fontsource-variable/inter';
+import '@fontsource/ibm-plex-mono/400.css';
+import '@fontsource/ibm-plex-mono/500.css';
+import '../styles/global.css';
+import Arrow from '../components/Arrow.astro';
+import { path } from '../lib/content';
+interface Props { title?: string; description?: string; active?: string }
+const { title = 'Quantum Systems @ TUM', description = 'Quantum computing research at the Technical University of Munich. Compilers, systems software, and quantum hardware.', active = '' } = Astro.props;
+const pageTitle = title === 'Quantum Systems @ TUM' ? 'Quantum Systems @ TUM' : `${title} | Quantum Systems @ TUM`;
+const nav = [{ label: 'Projects', route: 'projects/' }, { label: 'Team', route: 'team/' }, { label: 'Publications', route: 'publications/' }];
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f7f8f5" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:site_name" content="Quantum Systems @ TUM" />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href={path('favicon.svg')} />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Main content</a>
+    <header class="site-header wrap">
+      <a class="wordmark" href={path()} aria-label="Quantum Systems @ TUM home">Quantum Systems @ TUM</a>
+      <nav aria-label="Main navigation">
+        {nav.map((item) => <a href={path(item.route)} aria-current={active === item.label ? 'page' : undefined}>{item.label}</a>)}
+      </nav>
+      <a class="lab-link" href="https://dse.in.tum.de/">Lab <Arrow diagonal /></a>
+    </header>
+    <main id="main"><slot /></main>
+    <footer class="site-footer wrap">
+      <a class="wordmark" href={path()}>Quantum Systems @ TUM</a>
+      <p>Technical University of Munich</p>
+      <div><a href="https://dse.in.tum.de/contact/">Contact</a><a href="https://dse.in.tum.de/">Lab <Arrow diagonal /></a></div>
+    </footer>
+  </body>
+</html>

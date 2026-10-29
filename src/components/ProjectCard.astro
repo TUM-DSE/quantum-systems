@@ -1,0 +1,13 @@
+---
+import Arrow from './Arrow.astro';
+import { projectPath, path, getProjectPapers, type Project } from '../lib/content';
+interface Props { project: Project }
+const { project } = Astro.props;
+const papers = getProjectPapers(project);
+---
+<a class="project-card area-card" href={projectPath(project.slug)}>
+  <div class="project-image"><img src={path(project.image)} alt={project.imageAlt} width="600" height="320" loading="lazy"/></div>
+  <div class="project-card-title"><h3>{project.name}</h3><Arrow /></div>
+  <p class="project-description">{project.description}</p>
+  <div class="paper-previews">{papers.map((paper) => <div class="paper-preview"><img src={path(paper.image)} alt="" width="612" height="792" loading="lazy"/><div><span class="paper-preview-title">{paper.name}</span><span class="paper-preview-meta"><strong>{paper.venue}</strong> {paper.year}</span>{paper.award && <span class="paper-preview-award">{paper.award}</span>}</div></div>)}</div>
+</a>
