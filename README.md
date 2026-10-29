@@ -119,13 +119,15 @@ Run `npm run build` again to restore the root-path local build.
 
 ## Repository
 
-The source repository is [nathanieltornow/quantum-systems](https://github.com/nathanieltornow/quantum-systems).
+The source repository is [TUM-DSE/quantum-systems](https://github.com/TUM-DSE/quantum-systems).
 
 GitHub Actions checks changes on the main branch and pull requests.
 
 ## GitHub Pages
 
 The repository includes a manual deployment workflow.
+
+The website address is [tum-dse.github.io/quantum-systems](https://tum-dse.github.io/quantum-systems/).
 
 Select GitHub Actions in the repository Pages settings.
 

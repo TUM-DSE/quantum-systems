@@ -64,4 +64,6 @@ Qonductor displays its Best Student Paper Award finalist status.
 
 The GitHub Pages workflow requires a manual run.
 
-No website deployment occurred.
+The repository is public under TUM-DSE.
+
+The GitHub Pages source uses GitHub Actions.
