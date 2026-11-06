@@ -38,7 +38,11 @@ The website includes nine current lab members who coauthored quantum publication
 
 The main team page places Emmanouil Giortamis under graduating PhD alumni.
 
-The website keeps him in the Alumni section.
+The [personal website](https://manosgior.github.io/) of Emmanouil Giortamis lists a PhD student role.
+
+Emmanouil Giortamis has not graduated, so the website lists a current PhD student.
+
+Emmanouil Giortamis supplied the portrait directly.
 
 The [quantum group page](https://dse.in.tum.de/quantum-software-systems-group/) still lists Manos Giortamis as Research Group Leader.
 

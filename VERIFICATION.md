@@ -52,11 +52,11 @@ The Fault-Tolerant Compilation page links to Chipmunq, Harvest, and RushHour pap
 
 The RushHour citation control copies the citation and reports success.
 
-The homepage contains ten current team members.
+The homepage contains eleven current team members.
 
 Pramod appears first, followed by the other members in surname order.
 
-Portraits retain their original colors on hover and keyboard focus.
+Portraits display their original colors with no filter or overlay.
 
 Qonductor displays its Best Student Paper Award finalist status.
 

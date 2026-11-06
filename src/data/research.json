@@ -195,12 +195,13 @@
     },
     {
       "name": "Emmanouil Giortamis",
-      "role": "Graduating PhD alumnus",
+      "displayName": "Emmanouil (Manos) Giortamis",
+      "role": "PhD student",
       "url": "https://manosgior.github.io/",
       "image": "people/emmanouil-giortamis.jpg",
-      "group": "alumni",
-      "source": "https://dse.in.tum.de/team/",
-      "portraitSource": "https://dse.in.tum.de/wp-content/uploads/2021/11/scn_0011_copy-150x150.jpg"
+      "group": "current",
+      "source": "https://manosgior.github.io/",
+      "portraitSource": "Supplied by Emmanouil Giortamis"
     },
     {
       "name": "Anubhav Panda",

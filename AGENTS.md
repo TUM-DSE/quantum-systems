@@ -32,9 +32,7 @@ Use IBM Plex Mono for navigation, research group labels, metadata, and controls.
 
 Keep monospaced labels in sentence case or title case.
 
-Show portraits in blue tones by default.
-
-Show their original colors on hover and keyboard focus.
+Show portraits in their original colors, with no filter or overlay.
 
 Keep scientific diagrams static and editable.
 
@@ -94,7 +92,7 @@ Do not infer active work from a publication year.
 
 Do not infer current lab membership from paper authorship.
 
-Keep alumni and collaborators separate from current members.
+Keep collaborators separate from current members.
 
 Record conflicting sources in `SOURCES.md`.
 
@@ -137,8 +135,6 @@ Show the full current team on the homepage.
 Put Pramod Bhatotia first.
 
 Sort the remaining members by surname.
-
-Keep alumni in a separate section.
 
 Use initials when a person has no portrait.
 

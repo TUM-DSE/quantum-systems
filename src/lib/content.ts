@@ -7,10 +7,11 @@ export interface Resource {
 
 export interface Person {
   name: string;
+  displayName?: string;
   role: string;
   url: string;
   image: string;
-  group: "current" | "alumni" | "collaborator";
+  group: "current" | "collaborator";
 }
 
 export interface Paper {

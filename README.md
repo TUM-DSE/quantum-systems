@@ -48,7 +48,7 @@ Paper lists use `sortDate` to put the newest paper first.
 
 Record its date source in `sortDateSource`.
 
-The `people` array records current members, alumni, and collaborators.
+The `people` array records current members and collaborators.
 
 Store portraits in `public/people`.
 
@@ -60,7 +60,7 @@ Each card shows a short description and previews of its papers.
 
 Project pages contain extended descriptions and paper cards.
 
-The homepage displays the full current team and a separate alumni section.
+The homepage displays the full current team.
 
 Pramod appears first.
 

@@ -282,22 +282,9 @@ img {
 .person-card .portrait {
   aspect-ratio: 1/1.12;
   overflow: hidden;
-  background: var(--blue);
-  position: relative;
 }
 .portrait img {
-  filter: grayscale(1);
-  mix-blend-mode: screen;
-  opacity: 0.88;
   object-position: center 35%;
-}
-.portrait::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: var(--paper);
-  mix-blend-mode: multiply;
-  pointer-events: none;
 }
 .person-name {
   margin-top: 20px;
@@ -1185,28 +1172,9 @@ h4 {
   text-decoration-thickness: 1px;
   text-underline-offset: 7px;
 }
-.portrait img {
-  transition:
-    filter 0.2s,
-    opacity 0.2s;
-}
-.portrait::after {
-  transition: opacity 0.2s;
-}
-.person-card:hover .portrait img,
-.person-card:focus-visible .portrait img {
-  filter: none;
-  mix-blend-mode: normal;
-  opacity: 1;
-}
-.person-card:hover .portrait::after,
-.person-card:focus-visible .portrait::after {
-  opacity: 0;
-}
 .portrait-placeholder {
   display: grid;
   place-items: center;
-  background: transparent !important;
   border: 1px solid var(--rule);
 }
 .portrait-placeholder span {
@@ -1214,9 +1182,6 @@ h4 {
   letter-spacing: -0.06em;
   font-weight: 350;
   opacity: 0.65;
-}
-.portrait-placeholder::after {
-  display: none;
 }
 .project-illustration {
   max-width: 900px;
